@@ -10,19 +10,22 @@
        url('../fonts/Alegreya-Regular.ttf'),
        url('../fonts/Alegreya-Regular.eot') format('eot');
 }
-/* @font-face {
-  font-family: Anton;
+@font-face {
+  font-family: Scriptina;
   font-style:  normal;
   font-weight: normal;
   src: local('Anton'),
-       url('../assets/Anton-Regular.woff2') format('woff2'),
-       url('../assets/Anton-Regular.woff') format('woff'), 
-       url('../assets/Anton-Regular.ttf'),
-       url('../assets/Anton-Regular.eot') format('eot');
-} */
+       url('../fonts/Scriptina.woff2') format('woff2'),
+       url('../fonts/Scriptina.woff') format('woff'), 
+       url('../fonts/Scriptina.ttf'),
+       url('../fonts/Scriptina.eot') format('eot');
+}
 html {
      overflow-x: hidden;
 }
 .page {
       font-family: Alergeya, sans-serif;
+}
+* {
+     box-sizing: border-box;
 }
