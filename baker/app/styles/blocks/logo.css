@@ -4,4 +4,5 @@
   color: white;
   padding: 20px 0 0 10px;
   letter-spacing: 8px;
+  z-index: 1;
 }

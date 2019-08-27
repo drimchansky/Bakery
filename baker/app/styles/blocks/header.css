@@ -4,7 +4,20 @@
   background-position-x: 20%;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
+  .header:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .2;
+    z-index: 0;
+  }
+
 
 
     /* header MEDIA */
