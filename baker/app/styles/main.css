@@ -2,7 +2,12 @@
 
 @import './global.css';
 @import './bootstrap-grid.css';
-
+@import './blocks/header.css';
+@import './blocks/logo.css';
+@import './blocks/navigation.css';
+@import './blocks/social.css';
+@import './blocks/button.css';
+@import './blocks/header-content.css';
 
 
 

@@ -20,4 +20,9 @@
        url('../assets/Anton-Regular.ttf'),
        url('../assets/Anton-Regular.eot') format('eot');
 } */
-
+html {
+     overflow-x: hidden;
+}
+.page {
+      font-family: Alergeya, sans-serif;
+}
