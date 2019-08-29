@@ -1,5 +1,5 @@
-/* HAMBURGER */
-.hamburger {
+/* c-hamburger */
+.c-hamburger {
   position: absolute;
   box-sizing: border-box;
   right: 5px;
@@ -9,39 +9,37 @@
   display: inline-block;
   cursor: pointer;
   transition: all ease .3s;
-  font: inherit;
-  color: inherit;
   text-transform: none;
   background-color: transparent;
   border: 0;
   margin: 0;
   overflow: visible; 
 }
-  .hamburger:hover {
+  .c-hamburger:hover {
     opacity: 0.7; 
   }
-  .hamburger.is-active:hover {
+  .c-hamburger.is-active:hover {
     opacity: 0.7; 
   }
-  .hamburger:focus {
+  .c-hamburger:focus {
     outline: 2px solid white;
   }
-  .hamburger.is-active .hamburger-inner,
-  .hamburger.is-active .hamburger-inner::before,
-  .hamburger.is-active .hamburger-inner::after {
+  .c-hamburger.is-active .c-hamburger__inner,
+  .c-hamburger.is-active .c-hamburger__inner::before,
+  .c-hamburger.is-active .c-hamburger__inner::after {
     background-color: white; 
   }
-.hamburger-box {
+.c-hamburger__box {
   width: 40px;
   height: 24px;
   display: inline-block;
   position: relative; 
 }
-.hamburger-inner {
+.c-hamburger__inner {
   display: block;
   top: 50%;
   margin-top: -2px; }
-  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  .c-hamburger__inner, .c-hamburger__inner::before, .c-hamburger__inner::after {
     width: 40px;
     height: 4px;
     background-color: white;
@@ -51,35 +49,35 @@
     transition-duration: 0.15s;
     transition-timing-function: ease; 
   }
-  .hamburger-inner::before, .hamburger-inner::after {
+  .c-hamburger__inner::before, .c-hamburger__inner::after {
     content: "";
     display: block; 
   }
-  .hamburger-inner::before {
+  .c-hamburger__inner::before {
     top: -10px; 
   }
-  .hamburger-inner::after {
+  .c-hamburger__inner::after {
     bottom: -10px; 
   }
-    .hamburger .hamburger-inner {
+    .c-hamburger .c-hamburger__inner {
       transition-duration: 0.075s;
     }
-      .hamburger .hamburger-inner::before {
+      .c-hamburger .c-hamburger__inner::before {
         transition: top 0.075s 0.12s ease, opacity 0.075s ease; 
       }
-      .hamburger--squeeze .hamburger-inner::after {
+      .c-hamburger--squeeze .c-hamburger__inner::after {
         transition: bottom 0.075s 0.12s ease, transform 0.075s; 
       }
-    .hamburger.is-active .hamburger-inner {
+    .c-hamburger.is-active .c-hamburger__inner {
       transform: rotate(45deg);
       transition-delay: 0.12s;
     }
-      .hamburger.is-active .hamburger-inner::before {
+      .c-hamburger.is-active .c-hamburger__inner::before {
         top: 0;
         opacity: 0;
         transition: top 0.075s ease, opacity 0.075s 0.12s ease; 
       }
-      .hamburger.is-active .hamburger-inner::after {
+      .c-hamburger.is-active .c-hamburger__inner::after {
         bottom: 0;
         transform: rotate(-90deg);
         transition: bottom 0.075s ease, transform 0.075s 0.12s; 

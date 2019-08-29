@@ -1,4 +1,4 @@
-.header {
+.c-header {
   height: calc(var(--vh, 1vh) * 100);
   background-image: url('../../img/main-bg.jpg');
   background-position-x: 20%;
@@ -6,7 +6,7 @@
   background-size: cover;
   position: relative;
 }
-  .header:after {
+  .c-header:after {
     content: "";
     position: absolute;
     left: 0;

@@ -1,7 +1,7 @@
 @import '../../node_modules/normalize.css/normalize.css';
 
 @import './global.css';
-@import './bootstrap-grid.css';
+@import './/flex-grid.css';
 @import './blocks/header.css';
 @import './blocks/hamburger.css';
 @import './blocks/logo.css';

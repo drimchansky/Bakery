@@ -2,14 +2,12 @@
 <html lang="ru">
 
 <head>
-
 	<meta charset="utf-8">
 	<title>Baker</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" href="./img/favicon.png">
 	<meta property="og:image" content="./img/favicon.ico">
 	<link rel="stylesheet" href="./styles/main.css">
-
 
 	<!-- Fix chrome mobile vh -->
 	<script>
@@ -20,29 +18,30 @@
 			document.documentElement.style.setProperty('--vh', `${vh}px`);
 		});
 	</script>
+	<script async src="./js/index.js"></script>
 </head>
 
-<body class="page">
-
+<body class="l-page">
 
 	<!-- header -->
-	<header class="header">
-			<!-- HAMBURGER -->
-	<button class="hamburger" id="hamburger" aria-label="Menu" aria-controls="navigation" type="button">
-			<span class="hamburger-box">
-				<span class="hamburger-inner"></span>
+	<header class="c-header">
+		<!-- HAMBURGER -->
+		<button class="c-hamburger" id="hamburger" aria-label="Menu" aria-controls="navigation" type="button">
+			<span class="c-hamburger__box">
+				<span class="c-hamburger__inner"></span>
 			</span>
 		</button>
-		<div class="container">
-			<div class="header-topline row">
-				<span class="logo col-10">Gustos</span>
-				<nav id="menu" class="navigation col-2">nav</nav>
-				<div class="social col-2">social</div>
+
+		<div class="l-container">
+			<div class="c-header-topline l-row">
+				<span class="c-logo l-col-10">Gustos</span>
+				<nav id="menu" class="c-navigation l-col-2">nav</nav>
+				<div class="c-social l-col-2">social</div>
 			</div>
 		</div>
 	</header>
 
-	<script src="./js/index.js"></script>
+
 
 </body>
 

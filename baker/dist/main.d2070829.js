@@ -195,7 +195,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\Alegreya-Regular.woff2":[["Alegreya-Regular.140d02d4.woff2","fonts/Alegreya-Regular.woff2"],"fonts/Alegreya-Regular.woff2"],"./..\\fonts\\Alegreya-Regular.woff":[["Alegreya-Regular.17f90d2b.woff","fonts/Alegreya-Regular.woff"],"fonts/Alegreya-Regular.woff"],"./..\\fonts\\Alegreya-Regular.ttf":[["Alegreya-Regular.08756e02.ttf","fonts/Alegreya-Regular.ttf"],"fonts/Alegreya-Regular.ttf"],"./..\\fonts\\Alegreya-Regular.eot":[["Alegreya-Regular.85afd09d.eot","fonts/Alegreya-Regular.eot"],"fonts/Alegreya-Regular.eot"],"./..\\fonts\\Scriptina.woff2":[["Scriptina.7bd7be73.woff2","fonts/Scriptina.woff2"],"fonts/Scriptina.woff2"],"./..\\fonts\\Scriptina.woff":[["Scriptina.bfbaf1d8.woff","fonts/Scriptina.woff"],"fonts/Scriptina.woff"],"./..\\fonts\\Scriptina.ttf":[["Scriptina.5d35dce6.ttf","fonts/Scriptina.ttf"],"fonts/Scriptina.ttf"],"./..\\fonts\\Scriptina.eot":[["Scriptina.932d9aac.eot","fonts/Scriptina.eot"],"fonts/Scriptina.eot"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/bootstrap-grid.css":[function(require,module,exports) {
+},{"./..\\fonts\\Alegreya-Regular.woff2":[["Alegreya-Regular.140d02d4.woff2","fonts/Alegreya-Regular.woff2"],"fonts/Alegreya-Regular.woff2"],"./..\\fonts\\Alegreya-Regular.woff":[["Alegreya-Regular.17f90d2b.woff","fonts/Alegreya-Regular.woff"],"fonts/Alegreya-Regular.woff"],"./..\\fonts\\Alegreya-Regular.ttf":[["Alegreya-Regular.08756e02.ttf","fonts/Alegreya-Regular.ttf"],"fonts/Alegreya-Regular.ttf"],"./..\\fonts\\Alegreya-Regular.eot":[["Alegreya-Regular.85afd09d.eot","fonts/Alegreya-Regular.eot"],"fonts/Alegreya-Regular.eot"],"./..\\fonts\\Scriptina.woff2":[["Scriptina.7bd7be73.woff2","fonts/Scriptina.woff2"],"fonts/Scriptina.woff2"],"./..\\fonts\\Scriptina.woff":[["Scriptina.bfbaf1d8.woff","fonts/Scriptina.woff"],"fonts/Scriptina.woff"],"./..\\fonts\\Scriptina.ttf":[["Scriptina.5d35dce6.ttf","fonts/Scriptina.ttf"],"fonts/Scriptina.ttf"],"./..\\fonts\\Scriptina.eot":[["Scriptina.932d9aac.eot","fonts/Scriptina.eot"],"fonts/Scriptina.eot"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/flex-grid.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -230,7 +230,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"../../node_modules/normalize.css/normalize.css":"../node_modules/normalize.css/normalize.css","./global.css":"styles/global.css","./bootstrap-grid.css":"styles/bootstrap-grid.css","./blocks/header.css":"styles/blocks/header.css","./blocks/hamburger.css":"styles/blocks/hamburger.css","./blocks/logo.css":"styles/blocks/logo.css","./blocks/navigation.css":"styles/blocks/navigation.css","./blocks/social.css":"styles/blocks/social.css","./blocks/button.css":"styles/blocks/button.css","./blocks/header-content.css":"styles/blocks/header-content.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../../node_modules/normalize.css/normalize.css":"../node_modules/normalize.css/normalize.css","./global.css":"styles/global.css",".//flex-grid.css":"styles/flex-grid.css","./blocks/header.css":"styles/blocks/header.css","./blocks/hamburger.css":"styles/blocks/hamburger.css","./blocks/logo.css":"styles/blocks/logo.css","./blocks/navigation.css":"styles/blocks/navigation.css","./blocks/social.css":"styles/blocks/social.css","./blocks/button.css":"styles/blocks/button.css","./blocks/header-content.css":"styles/blocks/header-content.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -258,7 +258,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "3051" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2230" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -539,4 +539,4 @@ module.exports = function loadCSSBundle(bundle) {
 },{}],0:[function(require,module,exports) {
 var b=require("../node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("css",require("../node_modules/parcel-bundler/src/builtins/loaders/browser/css-loader.js"));b.load([]);
 },{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)
-//# sourceMappingURL=main.d2070829.js.map
+//# sourceMappingURL=/main.d2070829.js.map

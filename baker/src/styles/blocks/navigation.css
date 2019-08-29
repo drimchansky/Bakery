@@ -1,8 +1,8 @@
-.navigation {
+.c-navigation {
   z-index: 1;
   display: none;
 }
 
-.visible {
+.h-nabigation_visible {
   display: block;
 }
