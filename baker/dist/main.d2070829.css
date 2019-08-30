@@ -877,6 +877,27 @@ html {
   z-index: 10;
   transition: all .2s;
 }
+  .c-menu__list {
+    display: block;
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20% 0 0 0;
+    text-align: left;
+  }
+    .c-menu__item {
+      
+    }
+      .c-menu__link {
+        text-decoration: none;
+        color: inherit;
+        text-transform: uppercase;
+        display: block;
+        padding: 30px 30px;
+      }
 
 .h-menu_visible {
   transform: translate(0%);
