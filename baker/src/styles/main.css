@@ -1,14 +1,17 @@
 @import '../../node_modules/normalize.css/normalize.css';
 
-@import './global.css';
-@import './/flex-grid.css';
-@import './blocks/header.css';
-@import './blocks/hamburger.css';
-@import './blocks/logo.css';
-@import './blocks/navigation.css';
-@import './blocks/social.css';
-@import './blocks/button.css';
-@import './blocks/header-content.css';
+@import './h-global.css';
+
+@import './l-grid.css';
+@import './blocks/l-header-topline.css';
+
+@import './blocks/c-header.css';
+@import './blocks/c-hamburger.css';
+@import './blocks/c-logo.css';
+@import './blocks/c-menu.css';
+@import './blocks/c-social.css';
+@import './blocks/c-button.css';
+@import './blocks/c-header-content.css';
 
 
 
