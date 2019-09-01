@@ -350,16 +350,16 @@ template {
 
 
  /* fonts */
- @font-face {
-  font-family: Alergeya;
+ /* @font-face {
+  font-family: Alegreya;
   font-style: normal;
   font-weight: normal;
   src: local('Nunito'),
-       url('/Alegreya-Regular.140d02d4.woff2') format('woff2'),
-       url('/Alegreya-Regular.17f90d2b.woff') format('woff'),
-       url('/Alegreya-Regular.08756e02.ttf'),
-       url('/Alegreya-Regular.85afd09d.eot') format('eot');
-}
+       url('../fonts/Alegreya-Regular.woff2') format('woff2'),
+       url('../fonts/Alegreya-Regular.woff') format('woff'),
+       url('../fonts/Alegreya-Regular.ttf'),
+       url('../fonts/Alegreya-Regular.eot') format('eot');
+} */
 @font-face {
   font-family: Scriptina;
   font-style:  normal;
@@ -374,7 +374,7 @@ html {
      overflow-x: hidden;
 }
 .l-page {
-      font-family: Alergeya, sans-serif;
+     font-family: 'Titillium Web', sans-serif;
 }
 * {
      box-sizing: border-box;
@@ -421,7 +421,7 @@ html {
 
 .l-col-auto {
   flex: 0 0 auto;
-  width: auto;
+  width: 100%;
   max-width: none;
 }
 
@@ -730,9 +730,6 @@ html {
 }
 
 
-.l-header-topline {
-  
-}
 .c-header {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
@@ -750,7 +747,7 @@ html {
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: .2;
+    opacity: .4;
     z-index: 0;
   }
 
@@ -876,6 +873,7 @@ html {
   color: white;
   z-index: 10;
   transition: all .2s;
+  overflow: auto;
 }
   .c-menu__list {
     display: block;
@@ -887,6 +885,7 @@ html {
     justify-content: flex-start;
     padding: 20% 0 0 0;
     text-align: left;
+    margin: 0;
   }
     .c-menu__item {
       
@@ -902,9 +901,42 @@ html {
 .h-menu_visible {
   transform: translate(0%);
 }
-.c-social {
-   display: none;
+.menu__social {
+  margin: 10px 0;
 }
+.c-social {
+   list-style-type: none;
+   display: flex;
+   padding: 0;
+}
+  .c-social__item {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+  }
+    .c-social__link {
+      display: block;
+      height: 100%;
+    }
+    .c-social__link object{
+      display: block;
+      height: 100%;
+      pointer-events: none;
+    }
+.c-header-content {
+  color: white;
+  z-index: 9;
+  position: relative;
+  text-align: center;
+  height: 100%;
+}
+  .c-header-content__header {
+    font-size: 2.5em;
+    margin: 50% 0 0 0;
+  } 
+    .c-header-content__caption {
+
+    }
 /* height: calc(var(--vh, 1vh) * 100); */
 
 

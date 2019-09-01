@@ -48,7 +48,7 @@
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  width: auto;
+  width: 100%;
   max-width: none;
 }
 

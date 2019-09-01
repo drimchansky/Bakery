@@ -1,3 +1,22 @@
-.c-social {
-   display: none;
+.menu__social {
+  margin: 10px 0;
 }
+.c-social {
+   list-style-type: none;
+   display: flex;
+   padding: 0;
+}
+  .c-social__item {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+  }
+    .c-social__link {
+      display: block;
+      height: 100%;
+    }
+    .c-social__link object{
+      display: block;
+      height: 100%;
+      pointer-events: none;
+    }

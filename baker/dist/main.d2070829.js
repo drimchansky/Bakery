@@ -195,12 +195,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\Alegreya-Regular.woff2":[["Alegreya-Regular.140d02d4.woff2","fonts/Alegreya-Regular.woff2"],"fonts/Alegreya-Regular.woff2"],"./..\\fonts\\Alegreya-Regular.woff":[["Alegreya-Regular.17f90d2b.woff","fonts/Alegreya-Regular.woff"],"fonts/Alegreya-Regular.woff"],"./..\\fonts\\Alegreya-Regular.ttf":[["Alegreya-Regular.08756e02.ttf","fonts/Alegreya-Regular.ttf"],"fonts/Alegreya-Regular.ttf"],"./..\\fonts\\Alegreya-Regular.eot":[["Alegreya-Regular.85afd09d.eot","fonts/Alegreya-Regular.eot"],"fonts/Alegreya-Regular.eot"],"./..\\fonts\\Scriptina.woff2":[["Scriptina.7bd7be73.woff2","fonts/Scriptina.woff2"],"fonts/Scriptina.woff2"],"./..\\fonts\\Scriptina.woff":[["Scriptina.bfbaf1d8.woff","fonts/Scriptina.woff"],"fonts/Scriptina.woff"],"./..\\fonts\\Scriptina.ttf":[["Scriptina.5d35dce6.ttf","fonts/Scriptina.ttf"],"fonts/Scriptina.ttf"],"./..\\fonts\\Scriptina.eot":[["Scriptina.932d9aac.eot","fonts/Scriptina.eot"],"fonts/Scriptina.eot"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/l-grid.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/l-header-topline.css":[function(require,module,exports) {
+},{"./..\\fonts\\Scriptina.woff2":[["Scriptina.7bd7be73.woff2","fonts/Scriptina.woff2"],"fonts/Scriptina.woff2"],"./..\\fonts\\Scriptina.woff":[["Scriptina.bfbaf1d8.woff","fonts/Scriptina.woff"],"fonts/Scriptina.woff"],"./..\\fonts\\Scriptina.ttf":[["Scriptina.5d35dce6.ttf","fonts/Scriptina.ttf"],"fonts/Scriptina.ttf"],"./..\\fonts\\Scriptina.eot":[["Scriptina.932d9aac.eot","fonts/Scriptina.eot"],"fonts/Scriptina.eot"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/l-grid.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -230,12 +225,17 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/c-header-content.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/main.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"../../node_modules/normalize.css/normalize.css":"../node_modules/normalize.css/normalize.css","./h-global.css":"styles/h-global.css","./l-grid.css":"styles/l-grid.css","./blocks/l-header-topline.css":"styles/blocks/l-header-topline.css","./blocks/c-header.css":"styles/blocks/c-header.css","./blocks/c-hamburger.css":"styles/blocks/c-hamburger.css","./blocks/c-logo.css":"styles/blocks/c-logo.css","./blocks/c-menu.css":"styles/blocks/c-menu.css","./blocks/c-social.css":"styles/blocks/c-social.css","./blocks/c-button.css":"styles/blocks/c-button.css","./blocks/c-header-content.css":"styles/blocks/c-header-content.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../../node_modules/normalize.css/normalize.css":"../node_modules/normalize.css/normalize.css","./h-global.css":"styles/h-global.css","./l-grid.css":"styles/l-grid.css","./blocks/c-header.css":"styles/blocks/c-header.css","./blocks/c-hamburger.css":"styles/blocks/c-hamburger.css","./blocks/c-logo.css":"styles/blocks/c-logo.css","./blocks/c-menu.css":"styles/blocks/c-menu.css","./blocks/c-social.css":"styles/blocks/c-social.css","./blocks/c-button.css":"styles/blocks/c-button.css","./blocks/c-header-content.css":"styles/blocks/c-header-content.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -263,7 +263,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2971" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "4459" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

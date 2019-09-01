@@ -1,7 +1,7 @@
 
  /* fonts */
- @font-face {
-  font-family: Alergeya;
+ /* @font-face {
+  font-family: Alegreya;
   font-style: normal;
   font-weight: normal;
   src: local('Nunito'),
@@ -9,7 +9,7 @@
        url('../fonts/Alegreya-Regular.woff') format('woff'),
        url('../fonts/Alegreya-Regular.ttf'),
        url('../fonts/Alegreya-Regular.eot') format('eot');
-}
+} */
 @font-face {
   font-family: Scriptina;
   font-style:  normal;
@@ -24,7 +24,7 @@ html {
      overflow-x: hidden;
 }
 .l-page {
-      font-family: Alergeya, sans-serif;
+     font-family: 'Titillium Web', sans-serif;
 }
 * {
      box-sizing: border-box;
