@@ -4,9 +4,15 @@
 
 .mini-gallery__item {
   max-height: 30vw;
-  object-fit: cover;
   padding: 5px;
+  position: relative;
 }
+  .mini-gallery__item img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 
 .mini-gallery__decoration {
   position: absolute;
@@ -37,7 +43,22 @@
     }
   }
   @media screen and (min-width: 992px){
-
+    .mini-gallery {
+      display: flex;
+      align-items: center;
+    }
+    .mini-gallery__item {
+      height: 260px;
+    }
+    .mini-gallery__item:after {
+      content: "";
+      position: absolute;
+      width: 88%;
+      height: 88%;
+      top: 4%;
+      left: 4%;
+      border: 5px solid white;
+    }
   }
   @media screen and (min-width: 1200px){
 

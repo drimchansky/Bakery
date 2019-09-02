@@ -1,7 +1,6 @@
 .article {
   font-size: 16px;
   text-align: center;
-  padding: 70px 0 20px 0;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -55,7 +54,7 @@
 .article__image:before {
   content: "Benito";
   font-size: 27px;
-  left: -100px;
+  left: -90px;
 }
 
 .article__image:after {

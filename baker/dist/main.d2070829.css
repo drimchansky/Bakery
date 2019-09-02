@@ -1057,6 +1057,7 @@ html {
 .presentation {
   background: url('/texture.cb8a701a.jpg');
   position: relative;
+  padding: 60px 0 50px 0;
 }
 
 .presentation__decoration-round {
@@ -1098,10 +1099,16 @@ html {
 
 .mini-gallery__item {
   max-height: 30vw;
-  -o-object-fit: cover;
-     object-fit: cover;
   padding: 5px;
+  position: relative;
 }
+  .mini-gallery__item img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 
 .mini-gallery__decoration {
   position: absolute;
@@ -1132,7 +1139,22 @@ html {
     }
   }
   @media screen and (min-width: 992px){
-
+    .mini-gallery {
+      display: flex;
+      align-items: center;
+    }
+    .mini-gallery__item {
+      height: 260px;
+    }
+    .mini-gallery__item:after {
+      content: "";
+      position: absolute;
+      width: 88%;
+      height: 88%;
+      top: 4%;
+      left: 4%;
+      border: 5px solid white;
+    }
   }
   @media screen and (min-width: 1200px){
 
@@ -1140,7 +1162,6 @@ html {
 .article {
   font-size: 16px;
   text-align: center;
-  padding: 70px 0 20px 0;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -1194,7 +1215,7 @@ html {
 .article__image:before {
   content: "Benito";
   font-size: 27px;
-  left: -100px;
+  left: -90px;
 }
 
 .article__image:after {
