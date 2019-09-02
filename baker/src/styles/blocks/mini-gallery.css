@@ -26,3 +26,19 @@
   font-size: 1.3em;
   text-align: center;
 }
+
+
+   /* mini-gallery MEDIA */
+   @media screen and (min-width: 576px){
+    .mini-gallery__decoration {
+      height: 250px;
+      width: 250px;
+      font-size: 2em;
+    }
+  }
+  @media screen and (min-width: 992px){
+
+  }
+  @media screen and (min-width: 1200px){
+
+  }
