@@ -374,7 +374,7 @@ html {
      overflow-x: hidden;
 }
 .l-page {
-     font-family: 'Titillium Web', sans-serif;
+     font-family: 'Crimson Text', serif;
 }
 * {
      box-sizing: border-box;
@@ -869,7 +869,7 @@ html {
 }
 .c-logo {
   font-family: Scriptina, sans-serif;
-  font-size: 3em;
+  font-size: 2.8em;
   color: white;
   padding: 20px 0 0 10px;
   letter-spacing: 8px;
@@ -1006,15 +1006,28 @@ html {
   height: 70vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   font-size: 16px;
 }
   .c-header-content__header {
     font-size: 2.5em;
-    
+    margin: 0;
   } 
     .c-header-content__caption {
-
+      margin: 40px 0 0 0;
+    }
+    .c-header-content__button {
+      width: none;
+      padding: 10px 50px;
+      font-size: 1em;
+      border-radius: 3px;
+      margin: 40px 0 0 0;
+      border: 2px dashed rgba(255, 255, 255, .5);
+      background: rgba(0, 0, 0, .4);
+      color: white;
+      text-transform: uppercase;
+      z-index: 10;
     }
 
 
@@ -1028,6 +1041,9 @@ html {
     @media screen and (min-width: 992px){
       .c-header-content {
         font-size: 30px;
+      }
+      .c-header-content__button {
+        font-size: .7em;
       }
     }
     @media screen and (min-width: 1200px){
