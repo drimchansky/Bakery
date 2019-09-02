@@ -45,7 +45,8 @@
   background-size: cover;
 }
 
-.article__image:after, :before {
+.article__image:after,
+.article__image:before  {
   position: absolute;
   color: #5c5b56;
   top: 50%;
@@ -67,7 +68,32 @@
   font-size: 1.7em;
 }
 
-.article__quote {}
+.article__quote {
+  position: relative;
+  font-family: Scriptina, sans-serif;
+  font-size: 1.4em;
+  max-width: 250px;
+  color: #9f876f;
+  margin: 20px 0 0 0;
+}
+
+.article__quote:before {
+  content: "\201c";
+  position: absolute;
+  font-size: 2em;
+  left: -10px;
+  top: 5px;
+  color: #b0b1ac;
+}
+
+.article__quote:after {
+  content: "\201d";
+  position: absolute;
+  font-size: 2em;
+  right: 0px;
+  bottom: -15px;
+  color: #b0b1ac;
+}
 
 .presentation__decoration-round {
   height: 70px;
