@@ -1055,33 +1055,75 @@ html {
       }
     }    
 .presentation {
-  min-height: 500px;
   background: url('/texture.cb8a701a.jpg');
   position: relative;
 }
-  .presentation__article {
 
-  }
-    .presentation__header {
+.article {
+  font-size: 16px;
+  text-align: center;
+  padding: 70px 0;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    }
-    .presentation__caption {
+.article__header {
+  color: #56534c;
+  font-size: 2.5em;
+  margin: 0;
+}
 
-    }
-    .presentation__text {
+.article__caption {
+  color: #a87a62;
+  text-transform: uppercase;
+  font-size: .7em;
+}
 
-    }
-    .presentation__rank {
+.article__text {
+  color: #51504c;
+  max-width: 430px;
+}
 
-    }
-    .presentation__cook-image {
+.article__rank {
+  font-size: 1.8em;
+  margin: 20px 0 0 0;
+}
 
-    }
-    .presentation__quote {
-      
-    }
+.article__image {
+  position: relative;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  margin: 20px 0 0 0;
+  background: url(/cooker.1ddc0338.png);
+  background-size: cover;
+}
 
+.article__image:after, :before {
+  position: absolute;
+  color: #5c5b56;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 12px 5px;
+  border-top: 1px solid #d5d6d1;
+  border-bottom: 1px solid #d5d6d1;
+}
 
+.article__image:before {
+  content: "Benito";
+  font-size: 1.7em;
+  left: -90px;
+}
+
+.article__image:after {
+  content: "Gaspare";
+  right: -100px;
+  font-size: 1.7em;
+}
+
+.article__quote {}
 
 .presentation__decoration-round {
   height: 70px;
@@ -1094,17 +1136,23 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-  .presentation__decoration-round:before {
-    content: "";
-    height: 90px;
-    width: 90px;
-    left: -10px;
-    top: -10px;
-    background: url(/border-decor.96f6b65b.png);
-    position: absolute;
-    background-size: contain;
-  }
 
+.presentation__decoration-round:before {
+  content: "";
+  height: 90px;
+  width: 90px;
+  left: -10px;
+  top: -10px;
+  background: url(/border-decor.96f6b65b.png);
+  position: absolute;
+  background-size: contain;
+}
+.mini-gallery {
+
+}
+  .mini-gallery__item {
+    
+  }
 /* height: calc(var(--vh, 1vh) * 100); */
 
 
