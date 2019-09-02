@@ -1,4 +1,4 @@
-.c-logo {
+.logo {
   font-family: Scriptina, sans-serif;
   font-size: 2.8em;
   color: white;
@@ -18,7 +18,7 @@
   
     }
     @media screen and (min-width: 1200px){
-      .c-logo {
+      .logo {
         font-size: 2.5em;
       }
     }

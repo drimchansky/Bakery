@@ -190,47 +190,47 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/h-global.css":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/global.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\Scriptina.woff2":[["Scriptina.7bd7be73.woff2","fonts/Scriptina.woff2"],"fonts/Scriptina.woff2"],"./..\\fonts\\Scriptina.woff":[["Scriptina.bfbaf1d8.woff","fonts/Scriptina.woff"],"fonts/Scriptina.woff"],"./..\\fonts\\Scriptina.ttf":[["Scriptina.5d35dce6.ttf","fonts/Scriptina.ttf"],"fonts/Scriptina.ttf"],"./..\\fonts\\Scriptina.eot":[["Scriptina.932d9aac.eot","fonts/Scriptina.eot"],"fonts/Scriptina.eot"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/l-grid.css":[function(require,module,exports) {
+},{"./..\\fonts\\Scriptina.woff2":[["Scriptina.7bd7be73.woff2","fonts/Scriptina.woff2"],"fonts/Scriptina.woff2"],"./..\\fonts\\Scriptina.woff":[["Scriptina.bfbaf1d8.woff","fonts/Scriptina.woff"],"fonts/Scriptina.woff"],"./..\\fonts\\Scriptina.ttf":[["Scriptina.5d35dce6.ttf","fonts/Scriptina.ttf"],"fonts/Scriptina.ttf"],"./..\\fonts\\Scriptina.eot":[["Scriptina.932d9aac.eot","fonts/Scriptina.eot"],"fonts/Scriptina.eot"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/grid.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/c-header.css":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/header.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\img\\main-bg.jpg":[["main-bg.f24f415b.jpg","img/main-bg.jpg"],"img/main-bg.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/c-hamburger.css":[function(require,module,exports) {
+},{"./..\\..\\img\\main-bg.jpg":[["main-bg.f24f415b.jpg","img/main-bg.jpg"],"img/main-bg.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/hamburger.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/c-logo.css":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/logo.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/c-menu.css":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/menu.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/c-social.css":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/social.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/c-header-content.css":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/header-content.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/l-presentation.css":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/presentation.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -240,7 +240,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"../../node_modules/normalize.css/normalize.css":"../node_modules/normalize.css/normalize.css","./h-global.css":"styles/h-global.css","./l-grid.css":"styles/l-grid.css","./blocks/c-header.css":"styles/blocks/c-header.css","./blocks/c-hamburger.css":"styles/blocks/c-hamburger.css","./blocks/c-logo.css":"styles/blocks/c-logo.css","./blocks/c-menu.css":"styles/blocks/c-menu.css","./blocks/c-social.css":"styles/blocks/c-social.css","./blocks/c-button.css":"styles/blocks/c-button.css","./blocks/c-header-content.css":"styles/blocks/c-header-content.css","./blocks/l-presentation.css":"styles/blocks/l-presentation.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../../node_modules/normalize.css/normalize.css":"../node_modules/normalize.css/normalize.css","./global.css":"styles/global.css","./grid.css":"styles/grid.css","./blocks/header.css":"styles/blocks/header.css","./blocks/hamburger.css":"styles/blocks/hamburger.css","./blocks/logo.css":"styles/blocks/logo.css","./blocks/menu.css":"styles/blocks/menu.css","./blocks/social.css":"styles/blocks/social.css","./blocks/button.css":"styles/blocks/button.css","./blocks/header-content.css":"styles/blocks/header-content.css","./blocks/presentation.css":"styles/blocks/presentation.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -268,7 +268,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "4211" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "6346" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -1,4 +1,4 @@
-.l-presentation {
+.presentation {
   min-height: 500px;
   background: url('../../img/texture.jpg');
   position: relative;
@@ -7,7 +7,7 @@
 
 
 
-.c-presentation__decoration-round {
+.presentation__decoration-round {
   height: 70px;
   width: 70px;
   border-radius: 70px;
@@ -18,7 +18,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-  .c-presentation__decoration-round:before {
+  .presentation__decoration-round:before {
     content: "";
     height: 90px;
     width: 90px;

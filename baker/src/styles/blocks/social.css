@@ -1,22 +1,22 @@
 .menu__social {
   margin: 10px 0;
 }
-.c-social {
+.social {
    list-style-type: none;
    display: flex;
    padding: 0;
 }
-  .c-social__item {
+  .social__item {
     height: 70px;
     width: 70px;
     
   }
-    .c-social__link {
+    .social__link {
       display: block;
       height: 100%;
       padding: 8px;
     }
-    .c-social__link object{
+    .social__link object{
       display: block;
       height: 100%;
       pointer-events: none;
@@ -29,10 +29,10 @@
 
     }
     @media screen and (min-width: 992px){
-      .c-social {
+      .social {
         margin-left: auto;
       }
-      .c-social__item {
+      .social__item {
         height: 40px;
         width: 40px;
       }
