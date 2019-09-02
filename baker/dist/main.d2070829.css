@@ -762,6 +762,28 @@ html {
     z-index: 9;
   }
 
+  .c-header__decocation-round {
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    z-index: 10;
+    background: white 50% 62% url(/cake-2.ec074afc.png) no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+    .c-header__decocation-round:before {
+      content: "";
+      height: 90px;
+      width: 90px;
+      left: -10px;
+      top: -10px;
+      background: url(/border-decor.96f6b65b.png);
+      position: absolute;
+      background-size: contain;
+    }
+
 
     /* header MEDIA */
   @media screen and (min-width: 576px){

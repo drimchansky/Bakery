@@ -205,7 +205,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\img\\main-bg.jpg":[["main-bg.f24f415b.jpg","img/main-bg.jpg"],"img/main-bg.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/c-hamburger.css":[function(require,module,exports) {
+},{"./..\\..\\img\\main-bg.jpg":[["main-bg.f24f415b.jpg","img/main-bg.jpg"],"img/main-bg.jpg"],"./..\\..\\img\\cake-2.png":[["cake-2.ec074afc.png","img/cake-2.png"],"img/cake-2.png"],"./..\\..\\img\\border-decor.png":[["border-decor.96f6b65b.png","img/border-decor.png"],"img/border-decor.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/c-hamburger.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
