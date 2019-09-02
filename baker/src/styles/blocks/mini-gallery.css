@@ -1,6 +1,27 @@
 .mini-gallery {
-
+  position: relative;
 }
-  .mini-gallery__item {
-    
-  }
+
+.mini-gallery__item {
+  max-height: 30vw;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.mini-gallery__decoration {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../../img/Vektor-Smartobjekt.png);
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  color: #776357;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .8;
+  font-size: 1.8em;
+  text-align: center;
+}

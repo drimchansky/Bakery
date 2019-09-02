@@ -1062,7 +1062,7 @@ html {
 .article {
   font-size: 16px;
   text-align: center;
-  padding: 70px 0;
+  padding: 70px 0 20px 0;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -1174,11 +1174,33 @@ html {
   background-size: contain;
 }
 .mini-gallery {
-
+  position: relative;
 }
-  .mini-gallery__item {
-    
-  }
+
+.mini-gallery__item {
+  max-height: 30vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 5px;
+}
+
+.mini-gallery__decoration {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url(/Vektor-Smartobjekt.7788dc9b.png);
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  color: #776357;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .8;
+  font-size: 1.8em;
+  text-align: center;
+}
 /* height: calc(var(--vh, 1vh) * 100); */
 
 

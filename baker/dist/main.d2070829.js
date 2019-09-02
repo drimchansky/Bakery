@@ -240,7 +240,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/main.css":[function(require,module,exports) {
+},{"./..\\..\\img\\Vektor-Smartobjekt.png":[["Vektor-Smartobjekt.7788dc9b.png","img/Vektor-Smartobjekt.png"],"img/Vektor-Smartobjekt.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/main.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
