@@ -230,12 +230,17 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/main.css":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/l-presentation.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"../../node_modules/normalize.css/normalize.css":"../node_modules/normalize.css/normalize.css","./h-global.css":"styles/h-global.css","./l-grid.css":"styles/l-grid.css","./blocks/c-header.css":"styles/blocks/c-header.css","./blocks/c-hamburger.css":"styles/blocks/c-hamburger.css","./blocks/c-logo.css":"styles/blocks/c-logo.css","./blocks/c-menu.css":"styles/blocks/c-menu.css","./blocks/c-social.css":"styles/blocks/c-social.css","./blocks/c-button.css":"styles/blocks/c-button.css","./blocks/c-header-content.css":"styles/blocks/c-header-content.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\..\\img\\texture.jpg":[["texture.cb8a701a.jpg","img/texture.jpg"],"img/texture.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/main.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"../../node_modules/normalize.css/normalize.css":"../node_modules/normalize.css/normalize.css","./h-global.css":"styles/h-global.css","./l-grid.css":"styles/l-grid.css","./blocks/c-header.css":"styles/blocks/c-header.css","./blocks/c-hamburger.css":"styles/blocks/c-hamburger.css","./blocks/c-logo.css":"styles/blocks/c-logo.css","./blocks/c-menu.css":"styles/blocks/c-menu.css","./blocks/c-social.css":"styles/blocks/c-social.css","./blocks/c-button.css":"styles/blocks/c-button.css","./blocks/c-header-content.css":"styles/blocks/c-header-content.css","./blocks/l-presentation.css":"styles/blocks/l-presentation.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

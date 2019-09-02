@@ -747,7 +747,7 @@ html {
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: .2;
+    opacity: .3;
     z-index: 0;
   }
   .c-header:before {
@@ -1045,8 +1045,8 @@ html {
       font-size: 1em;
       border-radius: 3px;
       margin: 40px 0 0 0;
-      border: 2px dashed rgba(255, 255, 255, .5);
-      background: rgba(0, 0, 0, .4);
+      border: 2px dashed rgba(255, 255, 255, .3);
+      background: rgba(0, 0, 0, .5);
       color: white;
       text-transform: uppercase;
       z-index: 10;
@@ -1073,6 +1073,10 @@ html {
         font-size: 35px;
       }
     }    
+.l-presentation {
+  min-height: 500px;
+  background: url('/texture.cb8a701a.jpg');
+}
 /* height: calc(var(--vh, 1vh) * 100); */
 
 
