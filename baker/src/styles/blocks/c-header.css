@@ -18,7 +18,17 @@
     opacity: .2;
     z-index: 0;
   }
-
+  .c-header:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    opacity: .5;
+    background: #000;
+    z-index: 9;
+  }
 
 
     /* header MEDIA */

@@ -47,7 +47,18 @@
 
     }
     @media screen and (min-width: 992px){
-  
+      .c-menu {
+        position: relative;
+        height: auto;
+        transform: none;
+        background: transparent;
+        width: auto;
+        margin-left: auto;
+      }
+      .c-menu__list {
+        flex-direction: row;
+        padding: 0;
+      }
     }
     @media screen and (min-width: 1200px){
   

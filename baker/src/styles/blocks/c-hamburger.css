@@ -86,3 +86,9 @@
 .h-scroll-disable{
   overflow: hidden;
 }
+
+@media screen and (min-width: 992px){
+  .c-hamburger{
+    display: none;
+  }
+}

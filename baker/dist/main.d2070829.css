@@ -750,7 +750,17 @@ html {
     opacity: .2;
     z-index: 0;
   }
-
+  .c-header:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    opacity: .5;
+    background: #000;
+    z-index: 9;
+  }
 
 
     /* header MEDIA */
@@ -851,13 +861,19 @@ html {
 .h-scroll-disable{
   overflow: hidden;
 }
+
+@media screen and (min-width: 992px){
+  .c-hamburger{
+    display: none;
+  }
+}
 .c-logo {
   font-family: Scriptina, sans-serif;
   font-size: 3em;
   color: white;
   padding: 20px 0 0 10px;
   letter-spacing: 8px;
-  z-index: 5;
+  z-index: 10;
   text-decoration: none;
 }
 
@@ -871,7 +887,9 @@ html {
   
     }
     @media screen and (min-width: 1200px){
-  
+      .c-logo {
+        font-size: 2.5em;
+      }
     }
 .c-menu {
   width: 100vw;
@@ -922,7 +940,18 @@ html {
 
     }
     @media screen and (min-width: 992px){
-  
+      .c-menu {
+        position: relative;
+        height: auto;
+        transform: none;
+        background: transparent;
+        width: auto;
+        margin-left: auto;
+      }
+      .c-menu__list {
+        flex-direction: row;
+        padding: 0;
+      }
     }
     @media screen and (min-width: 1200px){
   
@@ -938,11 +967,12 @@ html {
   .c-social__item {
     height: 70px;
     width: 70px;
-    padding: 10px;
+    
   }
     .c-social__link {
       display: block;
       height: 100%;
+      padding: 8px;
     }
     .c-social__link object{
       display: block;
@@ -954,7 +984,13 @@ html {
 
     /* social MEDIA */
     @media screen and (min-width: 576px){
-
+      .c-social {
+        margin-left: auto;
+      }
+      .c-social__item {
+        height: 40px;
+        width: 40px;
+      }
     }
     @media screen and (min-width: 992px){
   

@@ -9,11 +9,12 @@
   .c-social__item {
     height: 70px;
     width: 70px;
-    padding: 10px;
+    
   }
     .c-social__link {
       display: block;
       height: 100%;
+      padding: 8px;
     }
     .c-social__link object{
       display: block;
@@ -25,7 +26,13 @@
 
     /* social MEDIA */
     @media screen and (min-width: 576px){
-
+      .c-social {
+        margin-left: auto;
+      }
+      .c-social__item {
+        height: 40px;
+        width: 40px;
+      }
     }
     @media screen and (min-width: 992px){
   
