@@ -1162,8 +1162,8 @@ html {
   /* mixes */
 
   .article__card {
-    text-align: left;
-    align-items: flex-start;
+    text-align: center;
+    align-items: center;
   }
   .article__presentation {
     text-align: center;
@@ -1189,6 +1189,7 @@ html {
     color: #a87a62;
     text-transform: uppercase;
     font-size: .7em;
+    margin-top: 5px;
   }
 
   .article__text {
@@ -1284,72 +1285,83 @@ html {
 
   @media screen and (min-width: 1200px) {}
 .cards-container {
-  
 }
 
 .card {
+}
+.card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
 
+.card__row {
+    display: flex;
+    justify-content: center;
 }
 
 .card__image {
-  min-height: 250px;
-  position: relative;
-  background: url(/slide-image-1.6a7b1da4.jpg);
-  background-size: cover;
-  border-bottom-left-radius: 14%;
+    min-height: 250px;
+    max-width: 400px;
+    position: relative;
+    background: url(/slide-image-1.6a7b1da4.jpg);
+    background-size: cover;
+    border-bottom-left-radius: 14%;
 }
 .card__image:before {
-  content: "";
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  height: 45px;
-  width: 45px;
-  background: white url('/corner.39e66c82.png');
-  background-size: contain;
-  box-shadow: 5px -2px 6px 0px rgba(0,0,0,0.70);
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 45px;
+    width: 45px;
+    background: white url("/corner.39e66c82.png");
+    background-size: contain;
+    box-shadow: 5px -2px 6px 0px rgba(0, 0, 0, 0.7);
 }
 
+/* card MEDIA */
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 1200px) {
+}
 
-   /* card MEDIA */
-   @media screen and (min-width: 576px){
-
-  }
-  @media screen and (min-width: 992px){
-
-  }
-  @media screen and (min-width: 1200px){
-
-  }
-   .rating {
+.rating {
     display: none;
-   }
-   
-   .rating__group {
+}
 
-   }
-   
-   .rating__star {
+.rating__group {
+}
 
-   }
-   
-   
-   
-   /* rating MEDIA */
-   @media screen and (min-width: 576px){
+.rating__star {
+}
 
-  }
-  @media screen and (min-width: 992px){
+/* rating MEDIA */
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 1200px) {
+}
 
-  }
-  @media screen and (min-width: 1200px){
+.dish-gallery {
+    display: flex;
+}
 
-  }
+.dish-gallery__item {
+    height: 50px;
+    width: 50px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.dish-gallery__button {
+}
+
 /* height: calc(var(--vh, 1vh) * 100); */
-
-
-
-
 
 
 /*# sourceMappingURL=/main.d2070829.css.map */

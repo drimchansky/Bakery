@@ -16,12 +16,6 @@
 @import './blocks/article.css';
 @import './blocks/card.css';
 @import './blocks/rating.css';
-
-
-
+@import './blocks/dish-gallery.css';
 
 /* height: calc(var(--vh, 1vh) * 100); */
-
-
-
-

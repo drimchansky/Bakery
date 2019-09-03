@@ -1,0 +1,13 @@
+.dish-gallery {
+    display: flex;
+}
+
+.dish-gallery__item {
+    height: 50px;
+    width: 50px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.dish-gallery__button {
+}

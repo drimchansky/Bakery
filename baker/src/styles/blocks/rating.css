@@ -1,24 +1,17 @@
-   .rating {
+.rating {
     display: none;
-   }
-   
-   .rating__group {
+}
 
-   }
-   
-   .rating__star {
+.rating__group {
+}
 
-   }
-   
-   
-   
-   /* rating MEDIA */
-   @media screen and (min-width: 576px){
+.rating__star {
+}
 
-  }
-  @media screen and (min-width: 992px){
-
-  }
-  @media screen and (min-width: 1200px){
-
-  }
+/* rating MEDIA */
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 1200px) {
+}
