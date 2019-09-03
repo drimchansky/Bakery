@@ -1,3 +1,38 @@
 .cards-container {
   
 }
+
+.card {
+
+}
+
+.card__image {
+  min-height: 250px;
+  position: relative;
+  background: url(../../img/slide-image-1.jpg);
+  background-size: cover;
+  border-bottom-left-radius: 14%;
+}
+.card__image:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 45px;
+  width: 45px;
+  background: white url('../../img/corner.png');
+  background-size: contain;
+  box-shadow: 5px -2px 6px 0px rgba(0,0,0,0.70);
+}
+
+
+   /* card MEDIA */
+   @media screen and (min-width: 576px){
+
+  }
+  @media screen and (min-width: 992px){
+
+  }
+  @media screen and (min-width: 1200px){
+
+  }

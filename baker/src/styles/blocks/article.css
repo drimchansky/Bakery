@@ -1,115 +1,124 @@
-.article {
-  font-size: 16px;
-  text-align: center;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  /* mixes */
 
-.article__header {
-  color: #56534c;
-  font-size: 2.5em;
-  margin: 0;
-}
-
-.article__caption {
-  color: #a87a62;
-  text-transform: uppercase;
-  font-size: .7em;
-}
-
-.article__text {
-  color: #51504c;
-  max-width: 430px;
-}
-
-.article__rank {
-  font-size: 1.8em;
-  margin: 20px 0 0 0;
-}
-
-.article__image {
-  position: relative;
-  border-radius: 50%;
-  height: 90px;
-  width: 90px;
-  margin: 20px 0 0 0;
-  background: url(../../img/cooker.png);
-  background-size: cover;
-  background-size: 180%;
-}
-
-.article__image:after,
-.article__image:before  {
-  position: absolute;
-  color: #5c5b56;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 12px 5px;
-  border-top: 1px solid #d5d6d1;
-  border-bottom: 1px solid #d5d6d1;
-}
-
-.article__image:before {
-  content: "Benito";
-  font-size: 27px;
-  left: -90px;
-}
-
-.article__image:after {
-  content: "Gaspare";
-  right: -105px;
-  font-size: 27px;
-}
-
-.article__quote {
-  position: relative;
-  font-family: Scriptina, sans-serif;
-  font-size: 1.4em;
-  max-width: 270px;
-  color: #9f876f;
-  margin: 20px 0 0 0;
-}
-
-.article__quote:before {
-  content: "\201c";
-  position: absolute;
-  font-size: 2em;
-  left: -10px;
-  top: 5px;
-  color: #b0b1ac;
-}
-
-.article__quote:after {
-  content: "\201d";
-  position: absolute;
-  font-size: 2em;
-  right: 0px;
-  bottom: -15px;
-  color: #b0b1ac;
-}
-
-
- /* article MEDIA */
- @media screen and (min-width: 576px){
-   .article {
-     font-size: 20px;
-   }
-  .article__image{
-    height: 110px;
-    width: 110px;
+  .article__card {
+    text-align: left;
+    align-items: flex-start;
   }
-}
-@media screen and (min-width: 992px){
+  .article__presentation {
+    text-align: center;
+    align-items: center;
+  }
+
+  /* article styles */
+
+  .article {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article__header {
+    color: #56534c;
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+  .article__caption {
+    color: #a87a62;
+    text-transform: uppercase;
+    font-size: .7em;
+  }
+
+  .article__text {
+    color: #51504c;
+    max-width: 430px;
+  }
+
+  .article__rank {
+    font-size: 1.8em;
+    margin: 20px 0 0 0;
+  }
+
+  .article__image {
+    position: relative;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin: 20px 0 0 0;
+    background: url(../../img/cooker.png);
+    background-size: cover;
+    background-size: 180%;
+  }
+
+  .article__image:after, .article__image:before {
+    position: absolute;
+    color: #5c5b56;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 12px 5px;
+    border-top: 1px solid #d5d6d1;
+    border-bottom: 1px solid #d5d6d1;
+  }
+
   .article__image:before {
-    left: -117px;
+    content: "Benito";
+    font-size: 27px;
+    left: -90px;
   }
-  
-  .article__image:after {
-    right: -135px;
-  }
-}
-@media screen and (min-width: 1200px){
 
-}
+  .article__image:after {
+    content: "Gaspare";
+    right: -105px;
+    font-size: 27px;
+  }
+
+  .article__quote {
+    position: relative;
+    font-family: Scriptina, sans-serif;
+    font-size: 1.4em;
+    max-width: 270px;
+    color: #9f876f;
+    margin: 20px 0 0 0;
+  }
+
+  .article__quote:before {
+    content: "\201c";
+    position: absolute;
+    font-size: 2em;
+    left: -10px;
+    top: 5px;
+    color: #b0b1ac;
+  }
+
+  .article__quote:after {
+    content: "\201d";
+    position: absolute;
+    font-size: 2em;
+    right: 0px;
+    bottom: -15px;
+    color: #b0b1ac;
+  }
+
+  /* article MEDIA */
+
+  @media screen and (min-width: 576px) {
+    .article {
+      font-size: 20px;
+    }
+    .article__image {
+      height: 110px;
+      width: 110px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .article__image:before {
+      left: -117px;
+    }
+    .article__image:after {
+      right: -135px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {}

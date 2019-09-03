@@ -97,7 +97,7 @@ window.addEventListener('resize', function () {
 			<div class="row">
 
 				<!-- article -->
-				<article class="col-12 col-lg-6 article">
+				<article class="col-12 col-lg-6 article article__presentation">
 					<h2 class="article__header">Art of cakes</h2>
 					<span class="article__caption">We create delicious memories</span>
 					<p class="article__text">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
@@ -114,18 +114,18 @@ window.addEventListener('resize', function () {
 				<div class="col-12 col-lg-6 mini-gallery">
 					<div class="row">
 						<div class="mini-gallery__item col-6">
-								<img src="/art-1.26d49679.png" alt="cake">
+							<img src="/art-1.26d49679.png" alt="cake">
 						</div>
 						<div class="mini-gallery__item col-6">
-								<img src="/art-2.06c4110f.png" alt="cake">
+							<img src="/art-2.06c4110f.png" alt="cake">
 						</div>
 						<div class="mini-gallery__item col-6">
-								<img src="/art-3.e9a5080c.png" alt="cake">
+							<img src="/art-3.e9a5080c.png" alt="cake">
 						</div>
 						<div class="mini-gallery__item col-6">
-								<img src="/art-4.3f12aac8.png" alt="cake">
+							<img src="/art-4.3f12aac8.png" alt="cake">
 						</div>
-						
+
 						<div class="mini-gallery__decoration">Tastes so good!</div>
 					</div>
 
@@ -134,39 +134,24 @@ window.addEventListener('resize', function () {
 		</div>
 	</section>
 
-		<!-- cards -->
+	<!-- cards -->
 	<section class="cards-container">
 		<div class="card container">
 			<div class="card__row row">
 
-					<!-- card-image -->
-				<div class=" card__image col-12">
-					<fieldset class="rating">
-						<div class="rating__group">
-								<input class="rating__star" type="radio" name="health" value="1" aria-label="1" checked="">
-								<input class="rating__star" type="radio" name="health" value="2" aria-label="2">
-								<input class="rating__star" type="radio" name="health" value="3" aria-label="3">
-								<input class="rating__star" type="radio" name="health" value="4" aria-label="4">
-								<input class="rating__star" type="radio" name="health" value="5" aria-label="5">
-						</div>
-					</fieldset>
-				</div>
+				<!-- card-content -->
+				<div class="card-content col-12">
 
-					<!-- card-content -->
-				<div class="card-content">
-
-						<!-- article -->
-					<article class="article">
-						<div class="article__header"></div>
-						<div class="article__caption"></div>
-						<div class="article__text"></div>
+					<!-- article -->
+					<article class="article article__card">
+						<div class="article__header">Tasty pancakes</div>
+						<div class="article__caption">Season favourite</div>
+						<div class="article__text">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
+							venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</div>
 					</article>
 
-						<!-- dish-gallery -->
+					<!-- dish-gallery -->
 					<div class="dish-gallery">
-						<div class="dish-gallery__item dish-gallery__item_active"></div>
-						<div class="dish-gallery__item dish-gallery__item_active"></div>
-						<div class="dish-gallery__item dish-gallery__item_active"></div>
 						<div class="dish-gallery__item"></div>
 						<div class="dish-gallery__item"></div>
 						<div class="dish-gallery__item"></div>
@@ -174,7 +159,20 @@ window.addEventListener('resize', function () {
 						<button class="dish-gallery__button dish-gallery__button_prev"></button>
 					</div>
 
-				</div>	
+				</div>
+
+				<!-- card-image -->
+				<div class=" card__image col-12">
+					<fieldset class="rating">
+						<div class="rating__group">
+							<input class="rating__star" type="radio" name="health" value="1" aria-label="1" checked="">
+							<input class="rating__star" type="radio" name="health" value="2" aria-label="2">
+							<input class="rating__star" type="radio" name="health" value="3" aria-label="3">
+							<input class="rating__star" type="radio" name="health" value="4" aria-label="4">
+							<input class="rating__star" type="radio" name="health" value="5" aria-label="5">
+						</div>
+					</fieldset>
+				</div>
 			</div>
 		</div>
 	</section>
