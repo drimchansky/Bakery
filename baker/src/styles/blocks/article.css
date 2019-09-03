@@ -102,7 +102,13 @@
   }
 }
 @media screen and (min-width: 992px){
-
+  .article__image:before {
+    left: -117px;
+  }
+  
+  .article__image:after {
+    right: -135px;
+  }
 }
 @media screen and (min-width: 1200px){
 
