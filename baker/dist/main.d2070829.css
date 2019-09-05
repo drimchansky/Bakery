@@ -1159,8 +1159,8 @@ html {
   @media screen and (min-width: 1200px){
 
   }
-  /* mixes */
 
+/* ARTICLE MIXES */
   .article__card {
     text-align: center;
     align-items: center;
@@ -1170,70 +1170,29 @@ html {
     align-items: center;
   }
 
-  /* article styles */
-
+  /* ARTICLE STYLES */
   .article {
     font-size: 16px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
   }
-
   .article__header {
     color: #56534c;
     font-size: 2.5em;
     margin: 0;
   }
-
   .article__caption {
     color: #a87a62;
     text-transform: uppercase;
     font-size: .7em;
     margin-top: 5px;
   }
-
   .article__text {
     color: #51504c;
     max-width: 430px;
   }
 
-  .article__rank {
-    font-size: 1.8em;
-    margin: 20px 0 0 0;
-  }
-
-  .article__image {
-    position: relative;
-    border-radius: 50%;
-    height: 90px;
-    width: 90px;
-    margin: 20px 0 0 0;
-    background: url(/cooker.1ddc0338.png);
-    background-size: cover;
-    background-size: 180%;
-  }
-
-  .article__image:after, .article__image:before {
-    position: absolute;
-    color: #5c5b56;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 12px 5px;
-    border-top: 1px solid #d5d6d1;
-    border-bottom: 1px solid #d5d6d1;
-  }
-
-  .article__image:before {
-    content: "Benito";
-    font-size: 27px;
-    left: -90px;
-  }
-
-  .article__image:after {
-    content: "Gaspare";
-    right: -105px;
-    font-size: 27px;
-  }
 
   .article__quote {
     position: relative;
@@ -1284,6 +1243,57 @@ html {
   }
 
   @media screen and (min-width: 1200px) {}
+
+  /* COOK STYLES */
+.cook {
+  position: relative;
+  margin-top: 70px;
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+  .cook__image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 20% 50%;
+       object-position: 20% 50%;
+  }
+  .cook__rank {
+    position: absolute;
+    top: -60px;
+    width: 300px;
+    font-size: 1.8em;
+  }
+  
+  .cook:after, .cook:before {
+    position: absolute;
+    color: #5c5b56;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 12px 5px;
+    border-top: 1px solid #d5d6d1;
+    border-bottom: 1px solid #d5d6d1;
+  }
+
+  .cook:before {
+    content: "Benito";
+    font-size: 27px;
+    left: -90px;
+  }
+
+  .cook:after {
+    content: "Gaspare";
+    right: -100px;
+    font-size: 27px;
+  }
 .cards-container {
 }
 
@@ -1347,18 +1357,18 @@ html {
 @media screen and (min-width: 1200px) {
 }
 
-.dish-gallery {
+.dish-slider {
     display: flex;
 }
 
-.dish-gallery__item {
+.dish-slider__item {
     height: 50px;
     width: 50px;
     background: #000;
     border-radius: 50%;
 }
 
-.dish-gallery__button {
+.dish-slider__button {
 }
 
 /* height: calc(var(--vh, 1vh) * 100); */

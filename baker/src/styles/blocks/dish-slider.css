@@ -1,13 +1,13 @@
-.dish-gallery {
+.dish-slider {
     display: flex;
 }
 
-.dish-gallery__item {
+.dish-slider__item {
     height: 50px;
     width: 50px;
     background: #000;
     border-radius: 50%;
 }
 
-.dish-gallery__button {
+.dish-slider__button {
 }

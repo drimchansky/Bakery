@@ -1,5 +1,5 @@
-  /* mixes */
 
+/* ARTICLE MIXES */
   .article__card {
     text-align: center;
     align-items: center;
@@ -9,70 +9,29 @@
     align-items: center;
   }
 
-  /* article styles */
-
+  /* ARTICLE STYLES */
   .article {
     font-size: 16px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
   }
-
   .article__header {
     color: #56534c;
     font-size: 2.5em;
     margin: 0;
   }
-
   .article__caption {
     color: #a87a62;
     text-transform: uppercase;
     font-size: .7em;
     margin-top: 5px;
   }
-
   .article__text {
     color: #51504c;
     max-width: 430px;
   }
 
-  .article__rank {
-    font-size: 1.8em;
-    margin: 20px 0 0 0;
-  }
-
-  .article__image {
-    position: relative;
-    border-radius: 50%;
-    height: 90px;
-    width: 90px;
-    margin: 20px 0 0 0;
-    background: url(../../img/cooker.png);
-    background-size: cover;
-    background-size: 180%;
-  }
-
-  .article__image:after, .article__image:before {
-    position: absolute;
-    color: #5c5b56;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 12px 5px;
-    border-top: 1px solid #d5d6d1;
-    border-bottom: 1px solid #d5d6d1;
-  }
-
-  .article__image:before {
-    content: "Benito";
-    font-size: 27px;
-    left: -90px;
-  }
-
-  .article__image:after {
-    content: "Gaspare";
-    right: -105px;
-    font-size: 27px;
-  }
 
   .article__quote {
     position: relative;
