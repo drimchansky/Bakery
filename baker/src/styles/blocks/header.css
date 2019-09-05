@@ -1,3 +1,5 @@
+
+ /* HEADER STYLES */
 .header {
   background-image: url('../../img/main-bg.jpg');
   background-position-x: 20%;
@@ -29,12 +31,14 @@
   }
 
 
-    /* header MEDIA */
+    /* HEADER MEDIA */
   @media screen and (min-width: 576px){
 
   }
   @media screen and (min-width: 992px){
-
+.header {
+  height: 100vh;
+}
   }
   @media screen and (min-width: 1200px){
 

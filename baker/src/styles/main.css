@@ -14,9 +14,9 @@
 @import './blocks/presentation.css';
 @import './blocks/mini-gallery.css';
 @import './blocks/article.css';
+@import './blocks/quote.css';
 @import './blocks/cook.css';
-@import './blocks/card.css';
-@import './blocks/rating.css';
-@import './blocks/dish-slider.css';
+
+
 
 /* height: calc(var(--vh, 1vh) * 100); */

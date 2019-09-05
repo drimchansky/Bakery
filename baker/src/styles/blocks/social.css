@@ -1,6 +1,10 @@
+
+/* SOCIAL MIXINS */
 .menu__social {
   margin: 10px 0;
 }
+
+/* SOCIAL STYLES */
 .social {
    list-style-type: none;
    display: flex;
@@ -24,7 +28,7 @@
 
 
 
-    /* social MEDIA */
+    /* SOCIAL MEDIA */
     @media screen and (min-width: 576px){
 
     }

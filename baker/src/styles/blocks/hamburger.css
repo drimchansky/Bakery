@@ -1,4 +1,5 @@
-/* hamburger */
+
+/* HAMBURGER */
 .hamburger {
   position: absolute;
   box-sizing: border-box;
@@ -82,11 +83,11 @@
         transform: rotate(-90deg);
         transition: bottom 0.075s ease, transform 0.075s 0.12s; 
       }
-
 .scroll-disable{
   overflow: hidden;
 }
 
+/* HAMBURGER MEDIA */
 @media screen and (min-width: 992px){
   .hamburger{
     display: none;

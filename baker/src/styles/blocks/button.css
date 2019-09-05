@@ -1,0 +1,29 @@
+
+/* BUTTON MIXES */
+.button__header {
+  padding: 10px 50px;
+  margin: 40px 0 0 0;
+  border: 2px dashed rgba(255, 255, 255, .3);
+  background: rgba(0, 0, 0, .5);
+  color: white;
+}
+
+/* BUTTON STYLES */
+.button {
+  font-size: 1em;
+  border-radius: 3px;
+  text-transform: uppercase;
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* BUTTON MEDIA */
+@media screen and (min-width: 576px){
+
+}
+@media screen and (min-width: 992px){
+
+}
+@media screen and (min-width: 1200px){
+
+}

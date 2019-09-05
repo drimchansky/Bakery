@@ -1,9 +1,10 @@
+ 
+/* PRESENTATION STYLES */
 .presentation {
   background: url('../../img/texture.jpg');
   position: relative;
-  padding: 60px 0 50px 0;
+  padding: 80px 0 100px 0;
 }
-
 .presentation__decoration-round {
   height: 70px;
   width: 70px;
@@ -15,7 +16,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .presentation__decoration-round:before {
   content: "";
   height: 90px;
@@ -27,7 +27,7 @@
   background-size: contain;
 }
 
-   /* presentation MEDIA */
+   /* PRESENTATION MEDIA */
    @media screen and (min-width: 576px){
 
   }

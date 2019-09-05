@@ -1,3 +1,5 @@
+
+/* MINI-GALLERY STYLES */
 .mini-gallery {
   position: relative;
 }
@@ -19,47 +21,60 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background: url(../../img/Vektor-Smartobjekt.png);
-  background-size: cover;
   height: 150px;
   width: 150px;
-  color: #776357;
+  color: #7c695d;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: .8;
   font-size: 1.3em;
   text-align: center;
 }
+.mini-gallery__decoration:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(../../img/Vektor-Smartobjekt.png);
+  background-size: cover;
+  opacity: .8;
+}
+.mini-gallery__decoration span {
+  z-index: 10;
+
+}
 
 
-   /* mini-gallery MEDIA */
-   @media screen and (min-width: 576px){
-    .mini-gallery__decoration {
-      height: 250px;
-      width: 250px;
-      font-size: 2em;
-    }
-  }
-  @media screen and (min-width: 992px){
-    .mini-gallery {
-      display: flex;
-      align-items: center;
-    }
-    .mini-gallery__item {
-      height: 260px;
-    }
-    .mini-gallery__item:after {
-      content: "";
-      position: absolute;
-      width: 88%;
-      height: 88%;
-      top: 4%;
-      left: 4%;
-      border: 5px solid white;
-    }
-  }
-  @media screen and (min-width: 1200px){
+   /* MINI-GALLERY MEDIA */
+ @media screen and (min-width: 576px){
+.mini-gallery__decoration {
+  height: 250px;
+  width: 250px;
+  font-size: 2em;
+}
+.mini-gallery__decoration span {
+  padding-bottom: 15px;
+}
+}
+@media screen and (min-width: 992px){
+.mini-gallery {
+  display: flex;
+  align-items: center;
+}
+.mini-gallery__item {
+  height: 300px;
+}
+.mini-gallery__item:after {
+  content: "";
+  position: absolute;
+  width: 88%;
+  height: 88%;
+  top: 4%;
+  left: 4%;
+  border: 5px solid white;
+}
+}
+@media screen and (min-width: 1200px){
 
-  }
+}
