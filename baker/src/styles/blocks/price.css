@@ -1,27 +1,43 @@
   /* PRICE STYLES */
 .price {
-
+  text-align: center;
+  font-size: 16px; 
+  padding: 50px 0;
+  z-index: 2;
 }
   .price__header {
-
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    font-size: 3.5em;
   }
   .price__subtitle {
-
+    color: #e9b595;;
+    font-weight: bold;
+    text-transform: uppercase;
   }
   .price__list {
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
   .price__item {
-
+    display: flex;
+    flex-direction: column;
   }
   .price__type {
-
+    color: white;
+    font-size: 1.6em;
+    margin: 30px 0 0 0;
   }
   .price__composition {
-
+    color: #c1c1b3;
+    margin: 8px 0 0 0;
   }
   .price__money {
-
+    color: #e9b595;;
+    margin: 20px 0 0 0;
+    font-size: 2em;
   }
 
   /* PRICE MEDIA */

@@ -8,7 +8,9 @@
   color: white;
 }
 .button__dining-card {
-  
+  background: transparent;
+  border: 2px solid #7c695d;
+  padding: 5px 25px;
 }
 
 /* BUTTON STYLES */

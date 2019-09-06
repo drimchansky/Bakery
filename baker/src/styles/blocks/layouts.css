@@ -3,6 +3,26 @@
 .l-slide {
 
 }
+.l-dish-price {
+  background: url(../../img/background-2.jpg);
+  background-size: cover;
+  background-position: 30%;
+  position: relative;
+}
+.l-dish-price:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, .2);
+  z-index: 1;
+}
+.l-container-price {
+  display: flex;
+  flex-direction: column;
+}
 
 /* LAYOUTS MEDIA */
 @media screen and (min-width: 576px) {
@@ -11,8 +31,8 @@
 @media screen and (min-width: 992px) {
 .l-slide {
   padding: 100px 0;
-  background: url(../../img/bg-slider.webp);
-  background-position: fixed;
+  background: url(../../img/bg-slider.webp) no-repeat;
+  background-size: cover;
 }
 }
 
