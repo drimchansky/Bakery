@@ -10,7 +10,12 @@
 .button__dining-card {
   background: transparent;
   border: 2px solid #7c695d;
-  padding: 5px 25px;
+  padding: 0px;
+  display: block;
+  color: #a87759;
+  width: 150px;
+  padding: 5px 0;
+  margin: 25px 0 0 0;
 }
 
 /* BUTTON STYLES */
