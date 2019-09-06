@@ -2,6 +2,7 @@
 /* MINI-GALLERY STYLES */
 .mini-gallery {
   position: relative;
+  margin-top: 30px;
 }
 
 .mini-gallery__item {
