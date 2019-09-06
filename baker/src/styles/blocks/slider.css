@@ -2,12 +2,13 @@
 /* SLIDER STYLES */
 .slider {
   position: relative;
-  padding: 30px 10px 30px 10px;
+  padding: 0 10px;
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
+  background: white;;
 }
   .slider__image {
     position: relative;
@@ -80,12 +81,22 @@
 .slider {
   flex-direction: row;
   max-width: 1000px;
+  padding-left: 0px;
 }
 .slider__image {
   width: 45%;
   max-width: none;
   height: 550px;
   background-position-x: 70%;
+}
+.mini-slider {
+  margin-left: 40px;
+  width: 80%;
+  justify-content: space-around;
+}
+.mini-slider__item {
+  height: 100px;
+  width: 100px;
 }
 }
 

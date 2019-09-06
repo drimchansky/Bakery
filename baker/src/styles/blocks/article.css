@@ -1,6 +1,6 @@
 
 /* ARTICLE MIXES */
-.article__slide {
+.article__slider {
   text-align: center;
   align-items: center;
   order: 1;
@@ -42,7 +42,10 @@
 }
 
 @media screen and (min-width: 992px) {
-  .article__slide {
+  .article__slider {
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 60px;
     order: 3;
   }
 }

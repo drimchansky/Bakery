@@ -3,6 +3,7 @@
 @import './global.css';
 
 @import './grid.css';
+@import './blocks/layouts.css';
 
 @import './blocks/header.css';
 @import './blocks/hamburger.css';

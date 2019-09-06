@@ -1,5 +1,19 @@
 
 /* LAYOUTS STYLES */
 .l-slide {
-  
+
 }
+
+/* LAYOUTS MEDIA */
+@media screen and (min-width: 576px) {
+
+}
+@media screen and (min-width: 992px) {
+.l-slide {
+  padding: 100px 0;
+  background: url(../../img/bg-slider.webp);
+  background-position: fixed;
+}
+}
+
+@media screen and (min-width: 1200px) {}
