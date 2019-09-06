@@ -1,8 +1,15 @@
 
+
+/* DINING CARD WRAPPER */
+.l-dining-card-wrap {
+  position: relative;
+  margin: 0 auto;
+  transform: translateX(-15%);
+}
 /* DINING-CARD STYLES */
 .dining-card {
   position: relative;
-  width: 250px;
+  width: 230px;
   background: #e6e0e0;
   display: flex;
   flex-direction: column;
@@ -37,12 +44,32 @@
   .dining-card__header {
     font-size: 1.8em;
     color: #54514a;
-    margin: 25px 0 0 0;
+    margin: 40px 0 0 0;
   }
   .dining-card__description {
     color: #54514a;
     font-family: sans-serif;
     font-size: .8em;
+  }
+
+  .dining-card_one {
+    transition: none;
+    position: relative;
+    z-index: 15;
+  }
+  .dining-card_two {
+    transform: scale(0.95);
+    position: absolute;
+    top: 0;
+    left: 35px;
+    z-index: 14;
+  }
+  .dining-card_three {
+    transform: scale(0.90);
+    position: absolute;
+    top: 0;
+    left: 70px;
+    z-index: 13;
   }
 /* DINIG-CARD MEDIA */
 @media screen and (min-width: 576px){
