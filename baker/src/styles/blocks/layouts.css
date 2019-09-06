@@ -4,10 +4,13 @@
 
 }
 .l-dish-price {
-  background: url(../../img/background-2.jpg);
+  background-image: url(../../img/background-2.webp);
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: 30%;
+  background-position-x: 60%;
   position: relative;
+  background-clip: padding-box;
+
 }
 .l-dish-price:before {
   content: "";
@@ -22,6 +25,7 @@
 .l-container-price {
   display: flex;
   flex-direction: column;
+  padding: 70px 0;
 }
 
 /* LAYOUTS MEDIA */
@@ -33,6 +37,15 @@
   padding: 100px 0;
   background: url(../../img/bg-slider.webp) no-repeat;
   background-size: cover;
+}
+.l-container-price {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.l-dish-price {
+  background-size: 110%;
+  background-position-x: -7em;
+  background-position-y: -9em;
 }
 }
 

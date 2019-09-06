@@ -2,7 +2,6 @@
 .price {
   text-align: center;
   font-size: 16px; 
-  padding: 50px 0;
   z-index: 2;
 }
   .price__header {
