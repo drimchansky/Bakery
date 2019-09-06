@@ -144,8 +144,10 @@
   <section class="l-slide">
 
     <!-- SLIDE -->
-    <div class="slide">
-      <img src="./img/slide-image-1.jpg" alt="cake" class="slide__image">
+    <div class="slider">
+      <img src="./img/slide-image-1.jpg" alt="cake" class="slider__image">
+      <img src="./img/slide-image-2.jpg" alt="cake" class="slider__image slider__image_active">
+      <img src="./img/slide-image-3.jpg" alt="cake" class="slider__image">
       
       <!-- ARTICLE -->
       <article class="article article__slide">
@@ -156,14 +158,13 @@
           condimentum rhoncus,
           sem quam semper libero, sit amet adipiscing sem neque sed.</p>
 
-          <!-- DISH SLIDER -->
-          <ul class="dish-slider">
-            <li class="dish-slider__item"></li>
-            <li class="dish-slider__item"></li>
-            <li class="dish-slider__item"></li>
-            <li class="dish-slider__item"></li>
-            <li class="dish-slider__item"></li>
-            <li class="dish-slider__item"></li>
+          <!-- MINI SLIDER -->
+          <ul class="mini-slider">
+            <li class="mini-slider__item" data-image="1"></li>
+            <li class="mini-slider__item mini-slider__item_active" data-image="2"></li>
+            <li class="mini-slider__item" data-image="3"></li>
+            <button class="mini-slider__button mini-slider__button_prev"></button>
+            <button class="mini-slider__button mini-slider__button_next"></button>
           </ul>
       </article>
     </div>
