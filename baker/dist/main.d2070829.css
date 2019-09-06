@@ -1086,7 +1086,7 @@ html {
   background: url('/texture.cb8a701a.jpg');
   background-size: cover;
   position: relative;
-  padding: 80px 0 100px 0;
+  padding: 80px 0 50px 0;
 }
 .presentation__decoration-round {
   height: 70px;
@@ -1220,6 +1220,7 @@ html {
   font-weight: bold;
   display: flex;
   flex-direction: column;
+  padding: 0 5px;
 }
   .article__header {
     color: #56534c;
@@ -1245,7 +1246,9 @@ html {
 }
 
 @media screen and (min-width: 992px) {
- 
+  .article__slide {
+    order: 3;
+  }
 }
 
 @media screen and (min-width: 1200px) {}
@@ -1387,14 +1390,17 @@ html {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: center
 }
   .slider__image {
+    position: relative;
+    height: 300px;
     width: 100%;
     order: 2;
-    display: none;
+    background-size: cover;
   }
-    .slider__image_active {
-      display: block;
+    .slider__image_one {
+      background-image: url(/slide-image-1.6a7b1da4.jpg);
     }
 
   
@@ -1415,6 +1421,7 @@ html {
   .mini-slider__button {
     position: absolute;
     background: none;
+    cursor: pointer;
     border: 2px solid rgb(146, 132, 132);
     height: 35px;
     width: 35px;
@@ -1443,9 +1450,26 @@ html {
   
     /* SLDIER MEDIA */
 @media screen and (min-width: 576px) {
+.slider__image {
+  max-width: 580px;
+}
+.mini-slider__item {
+  height: 90px;
+  width: 90px;
+}
 }
 
 @media screen and (min-width: 992px) {
+.slider {
+  flex-direction: row;
+  max-width: 1000px;
+}
+.slider__image {
+  width: 45%;
+  max-width: none;
+  height: 550px;
+  background-position-x: 70%;
+}
 }
 
 @media screen and (min-width: 1200px) {}

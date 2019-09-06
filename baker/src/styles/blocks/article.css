@@ -16,6 +16,7 @@
   font-weight: bold;
   display: flex;
   flex-direction: column;
+  padding: 0 5px;
 }
   .article__header {
     color: #56534c;
@@ -41,7 +42,9 @@
 }
 
 @media screen and (min-width: 992px) {
- 
+  .article__slide {
+    order: 3;
+  }
 }
 
 @media screen and (min-width: 1200px) {}
