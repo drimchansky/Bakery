@@ -1,8 +1,9 @@
 
 /* ARTICLE MIXES */
-.article__card {
+.article__slide {
   text-align: center;
   align-items: center;
+  order: 1;
 }
 .article__presentation {
   text-align: center;

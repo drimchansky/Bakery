@@ -30,6 +30,7 @@
   }
     .quote__text {
       font-size: 2.3em;
+      letter-spacing: 2px;
     }
   /* QUOTE MEDIA */
 @media screen and (min-width: 576px){

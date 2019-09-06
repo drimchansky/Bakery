@@ -2,6 +2,7 @@
 /* PRESENTATION STYLES */
 .presentation {
   background: url('../../img/texture.jpg');
+  background-size: cover;
   position: relative;
   padding: 80px 0 100px 0;
 }
