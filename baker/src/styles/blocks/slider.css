@@ -2,13 +2,13 @@
 /* SLIDER STYLES */
 .slider {
   position: relative;
-  padding: 0 10px;
+  padding: 30px 10px;
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: white;;
+  background: white;
 }
   .slider__image {
     position: relative;
@@ -81,7 +81,7 @@
 .slider {
   flex-direction: row;
   max-width: 1000px;
-  padding-left: 0px;
+  padding: 0px;
 }
 .slider__image {
   width: 45%;
