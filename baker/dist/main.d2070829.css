@@ -1767,15 +1767,15 @@ html {
 .stats {
   font-size: 16px;
   position: absolute;
-  top: -51px;
-  right: -4px;
+  top: -38px;
+  right: -9px;
   list-style-type: none;
   font-weight: bold;
 }
 .stats__item {
   background: rgba(255, 255, 255, .8);
-  min-height: 90px;
-  min-width: 90px;
+  min-height: 23vw;
+  min-width: 23vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1785,6 +1785,7 @@ html {
 }
 .stats__item_special {
   background: white;
+  margin: 0;
 }
 .stats__name {
   color: #9c7959;
