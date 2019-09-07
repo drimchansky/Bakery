@@ -1028,10 +1028,21 @@ html {
   padding: 5px 0;
   margin: 2em 0 0 0;
 }
+.button__product-image {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  padding: 13px 25px;
+  border: 2px dashed #d8c290;
+  color: #d8c290;
+  background: #fff;
+  text-transform: uppercase;
+}
 
 /* BUTTON STYLES */
 .button {
   font-size: 1em;
+  font-weight: bold;
   border-radius: 3px;
   text-transform: uppercase;
   z-index: 10;
@@ -1691,10 +1702,14 @@ html {
 
 /* PRODUCT-IMAGE STYLES */
 .product-image {
-  
+  position: relative;
+  width: 90%;
+  background: white;
+  margin: 0 auto;
 }
 .product-image__image {
-  
+  width: 100%;
+  padding: 5px;
 }
 /* PRODUCT-IMAGE MEDIA */
 @media screen and (min-width: 576px){

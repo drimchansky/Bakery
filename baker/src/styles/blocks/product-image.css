@@ -1,10 +1,14 @@
 
 /* PRODUCT-IMAGE STYLES */
 .product-image {
-  
+  position: relative;
+  width: 90%;
+  background: white;
+  margin: 0 auto;
 }
 .product-image__image {
-  
+  width: 100%;
+  padding: 5px;
 }
 /* PRODUCT-IMAGE MEDIA */
 @media screen and (min-width: 576px){
