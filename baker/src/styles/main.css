@@ -3,7 +3,6 @@
 @import './global.css';
 
 @import './grid.css';
-@import './blocks/layouts.css';
 
 @import './blocks/header.css';
 @import './blocks/hamburger.css';
@@ -20,6 +19,11 @@
 @import './blocks/slider.css'; 
 @import './blocks/price.css'; 
 @import './blocks/dining-card.css'; 
+@import './blocks/product-image.css'; 
+@import './blocks/product.css'; 
+@import './blocks/stats.css';
+@import './blocks/product-image.css';
+
 
 
 

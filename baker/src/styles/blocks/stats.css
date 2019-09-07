@@ -1,0 +1,28 @@
+
+/* STATS STYLES */
+.stats {
+  font-size: 16px;
+  display: none;
+}
+.stats__item {
+
+}
+.stats__name {
+
+}
+.stats__time {
+
+}
+.stats__unit {
+
+}
+/* STATS MEDIA */
+@media screen and (min-width: 576px){
+
+}
+@media screen and (min-width: 992px){
+
+}
+@media screen and (min-width: 1200px){
+
+}
