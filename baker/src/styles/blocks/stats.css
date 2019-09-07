@@ -41,10 +41,21 @@
 }
 /* STATS MEDIA */
 @media screen and (min-width: 576px){
-
+ .stats__time {
+   font-size: 2.5em;
+ }
 }
 @media screen and (min-width: 992px){
-
+.stats {
+  right: 0;
+}
+.stats__item {
+  min-width: 12em;
+  min-height: 12em;
+}
+.stats__time {
+  font-size: 5em; 
+}
 }
 @media screen and (min-width: 1200px){
 

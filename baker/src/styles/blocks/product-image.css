@@ -15,7 +15,10 @@
 
 }
 @media screen and (min-width: 992px){
-
+.product-image {
+  margin: 0;
+  max-width: 800px;
+}
 }
 @media screen and (min-width: 1200px){
 

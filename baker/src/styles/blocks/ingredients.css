@@ -28,7 +28,8 @@
   color: #57544d;
   font-size: 1em;
   font-weight: bold;
-  max-width: 350px;
+  max-width: 250px;
+  padding: 0 3px;
 }
 /* INGREDIENTS MEDIA */
 @media screen and (min-width: 576px){
@@ -39,7 +40,10 @@
 }
 }
 @media screen and (min-width: 992px){
-
+.ingredients {
+  flex-direction: column;
+  margin-top: -3em;
+}
 }
 @media screen and (min-width: 1200px){
 
