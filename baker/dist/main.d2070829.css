@@ -906,7 +906,7 @@ html {
   transform: translate(300%, -30%);
   background: rgba(5, 5, 5, .9);
   color: white;
-  z-index: 11;
+  z-index: 30;
   transition: all .2s;
   overflow: auto;
   display: none;
@@ -1766,19 +1766,41 @@ html {
 /* STATS STYLES */
 .stats {
   font-size: 16px;
-  display: none;
+  position: absolute;
+  top: -51px;
+  right: -4px;
+  list-style-type: none;
+  font-weight: bold;
 }
 .stats__item {
-
+  background: rgba(255, 255, 255, .8);
+  min-height: 90px;
+  min-width: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  max-width: 120px;
+}
+.stats__item_special {
+  background: white;
 }
 .stats__name {
-
+  color: #9c7959;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  word-wrap: normal;
+  text-align: center;
 }
 .stats__time {
-
+  color: #54514a;
+  font-size: 2em;
 }
 .stats__unit {
-
+  color: #988f86;
+  font-size: .9em;
+  font-weight: normal;
 }
 /* STATS MEDIA */
 @media screen and (min-width: 576px){
