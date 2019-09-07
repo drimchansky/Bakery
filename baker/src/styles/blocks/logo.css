@@ -1,3 +1,4 @@
+
 /* LOGO STYLES */
 .logo {
   font-family: Scriptina, sans-serif;
@@ -7,6 +8,11 @@
   letter-spacing: 8px;
   z-index: 10;
   text-decoration: none;
+}
+
+/* LOGO MIXES */
+.logo__footer {
+  color: #605d56;
 }
 
     /* LOGO MEDIA */
