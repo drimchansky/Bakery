@@ -1,19 +1,31 @@
 
 /* PRODUCT STYLES */
 .product {
-
+  font-size: 16px; 
+  padding: 50px 0;
+  background: #f4f1ea;
 }
 .product__header-wrap {
-
+  width: 100%;
+  text-align: center;
+  
 }
 .product__header {
-
+  font-size: 2em;
+  margin: 0;
+  color: #58554e;
 }
 .product__caption {
-
+  color: #a87b5a;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .8em;
+  margin: 0;
 }
 .product__wrapper {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 /* PRODUCT MEDIA */
   @media screen and (min-width: 576px){
