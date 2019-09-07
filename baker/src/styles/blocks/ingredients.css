@@ -32,7 +32,11 @@
 }
 /* INGREDIENTS MEDIA */
 @media screen and (min-width: 576px){
-
+.ingredients {
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3em;
+}
 }
 @media screen and (min-width: 992px){
 

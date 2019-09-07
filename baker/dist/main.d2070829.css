@@ -1051,7 +1051,9 @@ html {
 
 /* BUTTON MEDIA */
 @media screen and (min-width: 576px){
-
+.button__product-image {
+  font-size: 1.5em;
+}
 }
 @media screen and (min-width: 992px){
 
@@ -1705,7 +1707,7 @@ html {
   position: relative;
   width: 90%;
   background: white;
-  margin: 0 auto;
+  margin: 3em auto 0 auto;
 }
 .product-image__image {
   width: 100%;
@@ -1768,7 +1770,7 @@ html {
   font-size: 16px;
   position: absolute;
   top: -38px;
-  right: -9px;
+  right: 2px;
   list-style-type: none;
   font-weight: bold;
 }
@@ -1849,7 +1851,11 @@ html {
 }
 /* INGREDIENTS MEDIA */
 @media screen and (min-width: 576px){
-
+.ingredients {
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3em;
+}
 }
 @media screen and (min-width: 992px){
 
