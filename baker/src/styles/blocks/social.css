@@ -1,46 +1,45 @@
+/* SOCIAL STYLES */
+.social {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+.social__item {
+  height: 70px;
+  width: 70px;
+}
+.social__link {
+  display: block;
+  height: 100%;
+  padding: 8px;
+}
+.social__link:hover,
+.social__link:focus {
+  outline: 2px solid rgba(255, 255, 255, 0.8);
+}
+.social__link object {
+  display: block;
+  height: 100%;
+  pointer-events: none;
+}
 
 /* SOCIAL MIXINS */
 .menu__social {
   margin: 10px 0;
+  padding-right: 2px;
 }
 
-/* SOCIAL STYLES */
-.social {
-   list-style-type: none;
-   display: flex;
-   padding: 0;
+/* SOCIAL MEDIA */
+@media screen and (min-width: 576px) {
 }
-  .social__item {
-    height: 70px;
-    width: 70px;
-    
+@media screen and (min-width: 992px) {
+  .social {
+    margin-left: auto;
   }
-    .social__link {
-      display: block;
-      height: 100%;
-      padding: 8px;
-    }
-    .social__link object{
-      display: block;
-      height: 100%;
-      pointer-events: none;
-    }
-
-
-
-    /* SOCIAL MEDIA */
-    @media screen and (min-width: 576px){
-
-    }
-    @media screen and (min-width: 992px){
-      .social {
-        margin-left: auto;
-      }
-      .social__item {
-        height: 40px;
-        width: 40px;
-      }
-    }
-    @media screen and (min-width: 1200px){
-  
-    }
+  .social__item {
+    height: 40px;
+    width: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+}

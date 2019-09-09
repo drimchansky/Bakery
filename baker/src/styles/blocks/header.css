@@ -1,5 +1,4 @@
-
- /* HEADER STYLES */
+/* HEADER  */
 .header {
   background-image: url('../../img/main-bg.jpg');
   background-position-x: 20%;
@@ -7,39 +6,36 @@
   background-size: cover;
   position: relative;
 }
-  .header:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: #000;
-    opacity: .3;
-    z-index: 0;
-  }
-  .header:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 80px;
-    width: 100%;
-    opacity: .5;
-    background: #000;
-    z-index: 9;
-  }
-
-
-    /* HEADER MEDIA */
-  @media screen and (min-width: 576px){
-
-  }
-  @media screen and (min-width: 992px){
-.header {
-  height: 100vh;
+.header:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.3;
+  z-index: 0;
 }
-  }
-  @media screen and (min-width: 1200px){
+.header:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  opacity: 0.5;
+  background: #000;
+  z-index: 9;
+}
 
+/* HEADER MEDIA */
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 992px) {
+  .header {
+    height: 100vh;
   }
+}
+@media screen and (min-width: 1200px) {
+}

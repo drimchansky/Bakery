@@ -1,13 +1,28 @@
+/* BUTTON */
+.button {
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 3px;
+  text-transform: uppercase;
+  z-index: 10;
+  cursor: pointer;
+}
 
 /* BUTTON MIXES */
-.button__header {
+.button_header {
   padding: 10px 50px;
   margin: 40px 0 0 0;
-  border: 2px dashed rgba(255, 255, 255, .3);
-  background: rgba(0, 0, 0, .5);
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
+  transition: all 0.2s;
 }
-.button__dining-card {
+.button_header:hover,
+.button_header:focus {
+  border: 2px dashed rgba(255, 255, 255, 0.9);
+  outline: none;
+}
+.button_dining-card {
   background: transparent;
   border: 2px solid #7c695d;
   padding: 0px;
@@ -17,7 +32,7 @@
   padding: 5px 0;
   margin: 2em 0 0 0;
 }
-.button__product-image {
+.button_product-image {
   position: absolute;
   bottom: -10px;
   left: -10px;
@@ -28,25 +43,13 @@
   text-transform: uppercase;
 }
 
-/* BUTTON STYLES */
-.button {
-  font-size: 1em;
-  font-weight: bold;
-  border-radius: 3px;
-  text-transform: uppercase;
-  z-index: 10;
-  cursor: pointer;
-}
-
 /* BUTTON MEDIA */
-@media screen and (min-width: 576px){
-.button__product-image {
-  font-size: 1.5em;
+@media screen and (min-width: 576px) {
+  .button__product-image {
+    font-size: 1.5em;
+  }
 }
+@media screen and (min-width: 992px) {
 }
-@media screen and (min-width: 992px){
-
-}
-@media screen and (min-width: 1200px){
-
+@media screen and (min-width: 1200px) {
 }

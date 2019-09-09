@@ -1,6 +1,5 @@
-
- /* fonts */
- /* @font-face {
+/* fonts */
+/* @font-face {
   font-family: Alegreya;
   font-style: normal;
   font-weight: normal;
@@ -12,20 +11,21 @@
 } */
 @font-face {
   font-family: Scriptina;
-  font-style:  normal;
+  font-style: normal;
   font-weight: normal;
   src: local('Anton'),
-       url('../fonts/Scriptina.woff2') format('woff2'),
-       url('../fonts/Scriptina.woff') format('woff'), 
-       url('../fonts/Scriptina.ttf'),
-       url('../fonts/Scriptina.eot') format('eot');
-}
-html {
-     overflow-x: hidden;
+    url('../../fonts/Scriptina.woff2') format('woff2'),
+    url('../../fonts/Scriptina.woff') format('woff'),
+    url('../../fonts/Scriptina.ttf'),
+    url('../../fonts/Scriptina.eot') format('eot');
 }
 .page {
-     font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', serif;
+  overflow-x: hidden;
 }
 * {
-     box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 1px solid rgba(255, 255, 255, 0.8);
 }
