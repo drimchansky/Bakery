@@ -270,7 +270,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\img\\slide-image-1.jpg":[["slide-image-1.6a7b1da4.jpg","img/slide-image-1.jpg"],"img/slide-image-1.jpg"],"./..\\..\\img\\slide-image-2.jpg":[["slide-image-2.5c706741.jpg","img/slide-image-2.jpg"],"img/slide-image-2.jpg"],"./..\\..\\img\\slide-image-3.jpg":[["slide-image-3.66e21ed3.jpg","img/slide-image-3.jpg"],"img/slide-image-3.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/price.css":[function(require,module,exports) {
+},{"./..\\..\\img\\slide-image-1.jpg":[["slide-image-1.6a7b1da4.jpg","img/slide-image-1.jpg"],"img/slide-image-1.jpg"],"./..\\..\\img\\slide-image-2.jpg":[["slide-image-2.5c706741.jpg","img/slide-image-2.jpg"],"img/slide-image-2.jpg"],"./..\\..\\img\\slide-image-3.jpg":[["slide-image-3.66e21ed3.jpg","img/slide-image-3.jpg"],"img/slide-image-3.jpg"],"./..\\..\\img\\windmill.png":[["windmill.e6121735.png","img/windmill.png"],"img/windmill.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/price.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -338,7 +338,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "4319" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "4420" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

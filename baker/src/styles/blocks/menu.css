@@ -37,6 +37,7 @@
   padding: 28px;
   margin: 5px 5px 5px 5px;
   border-bottom: 2px solid transparent;
+  \transition: all 0.2s;
 }
 .menu__link:hover {
   border-bottom: 2px solid rgba(255, 255, 255, 0.8);

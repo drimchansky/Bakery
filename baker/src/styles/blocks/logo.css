@@ -14,6 +14,7 @@
 /* LOGO MIXES */
 .logo_header:hover {
   transform: rotate(5deg);
+  cursor: default;
 }
 .logo_footer {
   color: #605d56;
