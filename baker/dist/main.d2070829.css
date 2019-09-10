@@ -397,6 +397,7 @@ template {
   display: flex;
   flex-direction: column;
   padding: 70px 0;
+  align-items: center;
 }
 
 /* CONTAINER MEDIA */
@@ -1323,6 +1324,7 @@ template {
 /* DINING-CARD */
 .dining-card-wrap {
   position: relative;
+  margin: 50px 0 0 0;
 }
 .dining-card {
   position: relative;
@@ -1334,10 +1336,28 @@ template {
   text-align: center;
   padding: 4em 1em 3em 1em;
   z-index: 10;
+  overflow: hidden;
 }
 .dining-card:before {
+  position: absolute;
+  left: 2%;
+  top: 2%;
   content: '';
+  height: 96%;
+  width: 95%;
+  border: 2px dashed #9d9a93;
 }
+.dining-card:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: -70%;
+  right: -36%;
+  transform: rotate(-2deg);
+  background: url(/crops.64d71158.png) no-repeat;
+}
+
 .dining-card__decoration {
   margin: 0;
   display: flex;
@@ -1349,8 +1369,44 @@ template {
 }
 .dining-card__line {
   background: #c1beb7;
-  height: 1px;
+  height: 2px;
   width: 50%;
+  position: relative;
+}
+.dining-card__line_left:before,
+.dining-card__line_right:before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 2px solid #c3c0b9;
+  transform: translateY(-50%);
+  background: #f4f1ea;
+}
+.dining-card__line_left:before {
+  left: 0;
+}
+.dining-card__line_right:before {
+  right: 0;
+}
+.dining-card__line_left:after,
+.dining-card__line_right:after {
+  content: 'EST.';
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+  position: absolute;
+  left: 35%;
+  top: -35px;
+}
+.dining-card__line_left:after {
+  content: 'EST.';
+}
+.dining-card__line_right:after {
+  content: '1893';
+}
+
+.dining-card__line_right:after {
 }
 .dining-card__round {
   border: 1px solid #c1beb7;
@@ -1358,6 +1414,7 @@ template {
   background-size: 75%;
   background-position: center;
   position: absolute;
+  z-index: 10;
   height: 3.5em;
   width: 3.5em;
   border-radius: 50%;
@@ -1374,6 +1431,7 @@ template {
 }
 
 .dining-card_one {
+  transform: translateX(-35px);
   transition: none;
   position: relative;
   z-index: 15;
@@ -1382,21 +1440,31 @@ template {
   transform: scale(0.95);
   position: absolute;
   top: 0;
-  left: 35px;
+  left: 5px;
   z-index: 14;
+  cursor: pointer;
 }
 .dining-card_three {
   transform: scale(0.9);
   position: absolute;
   top: 0;
-  left: 70px;
+  left: 45px;
   z-index: 13;
+  cursor: pointer;
 }
 /* DINIG-CARD MEDIA */
 @media screen and (min-width: 576px) {
   .dining-card {
     font-size: 20px;
     width: 16em;
+  }
+  .dining-card:after {
+    bottom: -73%;
+    right: -46%;
+  }
+  .dining-card__line_left:after,
+  .dining-card__line_right:after {
+    top: -50px;
   }
 }
 @media screen and (min-width: 992px) {

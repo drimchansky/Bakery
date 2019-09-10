@@ -280,7 +280,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\img\\cake.png":[["cake.4818ee92.png","img/cake.png"],"img/cake.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/product-image.css":[function(require,module,exports) {
+},{"./..\\..\\img\\crops.png":[["crops.64d71158.png","img/crops.png"],"img/crops.png"],"./..\\..\\img\\cake.png":[["cake.4818ee92.png","img/cake.png"],"img/cake.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/product-image.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
