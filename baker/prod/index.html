@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="favicon.41951182.png">
   <meta property="og:image" content="favicon.4b31270f.ico">
-  <link rel="stylesheet" href="main.d2830ef0.css">
+  <link rel="stylesheet" href="main.a5c58b87.css">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
 
   <!-- Fix chrome mobile vh -->
@@ -31,7 +31,7 @@
       <div class="topline">
 
         <!-- LOGO -->
-        <a href="#" class="logo logo_header">Gustos</a>
+        <a class="logo logo_header">Gustos</a>
 
         <!-- MENU -->
         <nav id="menu" class="menu">
@@ -126,7 +126,7 @@
 
   <section class="l-slide">
 
-    <!-- SLIDE -->
+    <!-- SLIDER -->
     <div class="slider" id="slider">
       <div class="slider__image" data-image="1"></div>
 
@@ -139,14 +139,31 @@
           condimentum rhoncus,
           sem quam semper libero, sit amet adipiscing sem neque sed.</p>
 
-        <ul class="slider__list">
-          <li class="slider__item" data-image="1"></li>
-          <li class="slider__item slider__current" data-image="2"></li>
-          <li class="slider__item" data-image="3"></li>
-        </ul>
-        <button class="slider__button slider__button_prev" id="prev"></button>
-        <button class="slider__button slider__button_next" id="next"></button>
+        <div class="slider__inner">
+          <ul class="slider__list">
+            <li class="slider__item" data-image="1"></li>
+            <li class="slider__item slider__current" data-image="2"></li>
+            <li class="slider__item" data-image="3"></li>
+          </ul>
+          <button class="slider__button slider__button_prev" id="prev">
+            <svg width="13px" height="32px" enable-background="new 0 0 451.847 451.847" version="1.1" viewBox="0 0 451.847 451.847" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+              <path d="m97.141 225.92c0-8.095 3.091-16.192 9.259-22.366l194.29-194.28c12.359-12.359 32.397-12.359 44.751 0 12.354 12.354 12.354 32.388 0 44.748l-171.92 171.9 171.9 171.91c12.354 12.354 12.354 32.391 0 44.744-12.354 12.365-32.386 12.365-44.745 0l-194.29-194.28c-6.167-6.177-9.252-14.274-9.252-22.372z"></path>
+            </svg>
+          </button>
+          <button class="slider__button slider__button_next" id="next">
+            <svg width="13px" height="32px" enable-background="new 0 0 451.846 451.847" version="1.1" viewBox="0 0 451.846 451.847" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+              <path d="m345.44 248.29l-194.29 194.28c-12.359 12.365-32.397 12.365-44.75 0-12.354-12.354-12.354-32.391 0-44.744l171.91-171.91-171.91-171.9c-12.354-12.359-12.354-32.394 0-44.748 12.354-12.359 32.391-12.359 44.75 0l194.29 194.28c6.177 6.18 9.262 14.271 9.262 22.366 0 8.099-3.091 16.196-9.267 22.373z"></path>
+            </svg>
+          </button>
+        </div>
       </article>
+      <ul class="stats stats_slider">
+        <li class="stats__item stats__item_special">
+          <div class="stats__name">Ready in</div>
+          <div class="stats__time">50</div>
+          <div class="stats__unit">mins</div>
+        </li>
+      </ul>
     </div>
   </section>
 
