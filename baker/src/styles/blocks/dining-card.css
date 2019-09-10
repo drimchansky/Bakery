@@ -1,13 +1,7 @@
-
-
-/* DINING CARD WRAPPER */
-.l-dining-card-wrap {
+/* DINING-CARD */
+.dining-card-wrap {
   position: relative;
-  margin: 40px auto 0 auto;
-  transform: translateX(-15%);
-  z-index: 5;
 }
-/* DINING-CARD STYLES */
 .dining-card {
   position: relative;
   width: 15em;
@@ -19,78 +13,80 @@
   padding: 4em 1em 3em 1em;
   z-index: 10;
 }
-  .dining-card__decoration {
-    margin: 0;
-    display: flex;
-    position: relative;
-    width: 100%;
-    color: #54514a;
-    font-family: sans-serif;
-    font-size: .8em;
-  }
-  .dining-card__line {
-    background: #c1beb7;
-    height: 1px;
-    width: 50%;
-  }
-  .dining-card__round {
-    border: 1px solid #c1beb7;
-    background: #f4f1ea url(../../img/cake.png) no-repeat;
-    background-size: 85%;
-    background-position: center;
-    position: absolute;
-    height: 3em; 
-    width: 3em;
-    border-radius: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }
-  .dining-card__header {
-    font-size: 1.7em;
-    color: #54514a;
-    margin: 2em 0 0 0;
-  }
-  .dining-card__description {
-    margin: 2em 0 0 0;
-  }
-
-  .dining-card_one {
-    transition: none;
-    position: relative;
-    z-index: 15;
-  }
-  .dining-card_two {
-    transform: scale(0.95);
-    position: absolute;
-    top: 0;
-    left: 35px;
-    z-index: 14;
-  }
-  .dining-card_three {
-    transform: scale(0.90);
-    position: absolute;
-    top: 0;
-    left: 70px;
-    z-index: 13;
-  }
-/* DINIG-CARD MEDIA */
-@media screen and (min-width: 576px){
-.dining-card{
-  font-size: 20px;
-  width: 16em;
+.dining-card:before {
+  content: '';
 }
+.dining-card__decoration {
+  margin: 0;
+  display: flex;
+  position: relative;
+  width: 100%;
+  color: #54514a;
+  font-family: sans-serif;
+  font-size: 0.8em;
 }
-@media screen and (min-width: 992px){
-.dining-card {
-  font-size: 24px;
+.dining-card__line {
+  background: #c1beb7;
+  height: 1px;
+  width: 50%;
+}
+.dining-card__round {
+  border: 1px solid #c1beb7;
+  background: #f4f1ea url(../../img/cake.png) no-repeat;
+  background-size: 75%;
+  background-position: center;
+  position: absolute;
+  height: 3.5em;
+  width: 3.5em;
+  border-radius: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dining-card__header {
+  font-size: 1.7em;
+  color: #54514a;
+  margin: 2em 0 0 0;
 }
 .dining-card__description {
-  font-size: .8em;
+  margin: 2em 0 0 0;
 }
-.l-dining-card-wrap {
-  margin: 0;
-}
-}
-@media screen and (min-width: 1200px){
 
+.dining-card_one {
+  transition: none;
+  position: relative;
+  z-index: 15;
+}
+.dining-card_two {
+  transform: scale(0.95);
+  position: absolute;
+  top: 0;
+  left: 35px;
+  z-index: 14;
+}
+.dining-card_three {
+  transform: scale(0.9);
+  position: absolute;
+  top: 0;
+  left: 70px;
+  z-index: 13;
+}
+/* DINIG-CARD MEDIA */
+@media screen and (min-width: 576px) {
+  .dining-card {
+    font-size: 20px;
+    width: 16em;
+  }
+}
+@media screen and (min-width: 992px) {
+  .dining-card {
+    font-size: 24px;
+  }
+  .dining-card__description {
+    font-size: 0.8em;
+  }
+  .dining-card-wrap {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
 }

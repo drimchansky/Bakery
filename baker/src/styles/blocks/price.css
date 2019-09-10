@@ -1,22 +1,20 @@
- 
- /* LAYOUTS */
- .l-dish-price {
+/* LAYOUTS */
+.dish-price {
   background-image: url(../../img/background-2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: 60%;
   position: relative;
   background-clip: padding-box;
-
 }
 .l-dish-price:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 .l-container-price {
@@ -25,68 +23,57 @@
   padding: 70px 0;
 }
 
- /* PRICE STYLES */
+/* PRICE STYLES */
 .price {
   text-align: center;
-  font-size: 16px; 
+  font-size: 16px;
   z-index: 2;
 }
-  .price__header {
-    font-weight: bold;
-    margin: 0;
-    color: white;
-    font-size: 3.5em;
-  }
-  .price__subtitle {
-    color: #e9b595;;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  .price__list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  .price__item {
-    display: flex;
-    flex-direction: column;
-  }
-  .price__type {
-    color: white;
-    font-size: 1.6em;
-    margin: 30px 0 0 0;
-  }
-  .price__composition {
-    color: #c1c1b3;
-    margin: 8px 0 0 0;
-  }
-  .price__money {
-    color: #e9b595;;
-    margin: 20px 0 0 0;
-    font-size: 2em;
-  }
-
-  /* PRICE MEDIA */
-@media screen and (min-width: 576px){
-
+.price__header {
+  font-weight: bold;
+  margin: 0;
+  color: white;
+  font-size: 3.5em;
 }
-@media screen and (min-width: 992px){
-  .l-slide {
-    padding: 100px 0;
-    background: url(../../img/bg-slider.webp) no-repeat;
-    background-size: cover;
-  }
-  .l-container-price {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .l-dish-price {
+.price__subtitle {
+  color: #e9b595;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.price__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.price__item {
+  display: flex;
+  flex-direction: column;
+}
+.price__type {
+  color: white;
+  font-size: 2em;
+  margin: 30px 0 0 0;
+}
+.price__composition {
+  font-size: 1.2em;
+  color: #c1c1b3;
+  margin: 8px 0 0 0;
+}
+.price__money {
+  color: #e9b595;
+  margin: 20px 0 0 0;
+  font-size: 2.2em;
+}
+
+/* PRICE MEDIA */
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 992px) {
+  .dish-price {
     background-size: 110%;
     background-position-x: -7em;
     background-position-y: -9em;
   }
 }
-@media screen and (min-width: 1200px){
-
+@media screen and (min-width: 1200px) {
 }
-

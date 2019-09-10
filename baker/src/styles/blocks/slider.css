@@ -92,6 +92,11 @@
 }
 
 @media screen and (min-width: 992px) {
+  .slider-container {
+    padding: 100px 0;
+    background: url(../../img/bg-slider.webp) no-repeat;
+    background-size: cover;
+  }
   .slider {
     flex-direction: row;
     justify-content: space-between;
