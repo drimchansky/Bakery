@@ -10,6 +10,7 @@
 .mini-gallery__item {
   max-height: 30vw;
   position: relative;
+  border-radius: 2px;
 }
 .mini-gallery__item img {
   display: block;
@@ -63,6 +64,7 @@
   }
   .mini-gallery__item {
     height: 320px;
+    transition: all 0.2s;
   }
   .mini-gallery__item:after {
     content: '';

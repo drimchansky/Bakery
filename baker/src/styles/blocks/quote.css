@@ -1,9 +1,3 @@
-
-/* QUOTE MIXINS */
-.quote__presentation {
-  margin: 20px 0 0 0;
-}
-
 /* QUOTE STYLES */
 .quote {
   position: relative;
@@ -12,37 +6,40 @@
   max-width: 300px;
   color: #9f876f;
 }
-  .quote:before,
-  .quote:after {
-    position: absolute;
-    font-size: 3em;
-    color: #b0b1ac;
-  }
-  .quote:before {
-    content: "\201c";
-    left: -5px;
-    top: 5px;
-  }
-  .quote:after {
-    content: "\201d";
-    right: -5px;
-    bottom: -15px;
-  }
-    .quote__text {
-      font-size: 2.3em;
-      letter-spacing: 2px;
-    }
-  /* QUOTE MEDIA */
-@media screen and (min-width: 576px){
+.quote:before,
+.quote:after {
+  position: absolute;
+  font-size: 3em;
+  color: #b0b1ac;
+}
+.quote:before {
+  content: '\201c';
+  left: -5px;
+  top: 5px;
+}
+.quote:after {
+  content: '\201d';
+  right: -5px;
+  bottom: -15px;
+}
+.quote__text {
+  font-size: 2.3em;
+  letter-spacing: 2px;
+}
+
+/* QUOTE MIXINS */
+.quote__presentation {
+  margin: 20px 0 0 0;
+}
+
+/* QUOTE MEDIA */
+@media screen and (min-width: 576px) {
   .quote {
     font-size: 20px;
     max-width: 400px;
   }
 }
-@media screen and (min-width: 992px){
-
+@media screen and (min-width: 992px) {
 }
-@media screen and (min-width: 1200px){
-
+@media screen and (min-width: 1200px) {
 }
-
