@@ -39,7 +39,10 @@ const prevSlide = () => {
 };
 
 const clickOnImage = e => {
-  if (e.target.dataset.image) {
+  if (
+    e.target.dataset.image &&
+    e.target.classList.contains('slider__item')
+  ) {
     const currentImage = slider.querySelector('.slider__current');
     currentImage.classList.remove('slider__current');
 

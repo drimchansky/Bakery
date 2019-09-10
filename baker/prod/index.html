@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="favicon.41951182.png">
   <meta property="og:image" content="favicon.4b31270f.ico">
-  <link rel="stylesheet" href="main.527b7448.css">
+  <link rel="stylesheet" href="main.d2830ef0.css">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
 
   <!-- Fix chrome mobile vh -->
   <script>var e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh","".concat(e,"px")),window.addEventListener("resize",function(){var e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh","".concat(e,"px"))});</script>
 
-  <script async="" src="js.e5a878c1.js"></script>
+  <script async="" src="js.edafa3c9.js"></script>
 </head>
 
 <body class="page__body">
@@ -127,8 +127,8 @@
   <section class="l-slide">
 
     <!-- SLIDE -->
-    <div class="slider">
-      <div src="./img/slide-image-2.jpg" alt="cake" class="slider__image slider__image_one"></div>
+    <div class="slider" id="slider">
+      <div class="slider__image" data-image="1"></div>
 
       <!-- ARTICLE -->
       <article class="article article__slider">
@@ -139,14 +139,13 @@
           condimentum rhoncus,
           sem quam semper libero, sit amet adipiscing sem neque sed.</p>
 
-        <!-- MINI SLIDER -->
-        <ul class="mini-slider">
-          <li class="mini-slider__item" data-image="1"></li>
-          <li class="mini-slider__item mini-slider__item_active" data-image="2"></li>
-          <li class="mini-slider__item" data-image="3"></li>
-          <button class="mini-slider__button mini-slider__button_prev"></button>
-          <button class="mini-slider__button mini-slider__button_next"></button>
+        <ul class="slider__list">
+          <li class="slider__item" data-image="1"></li>
+          <li class="slider__item slider__current" data-image="2"></li>
+          <li class="slider__item" data-image="3"></li>
         </ul>
+        <button class="slider__button slider__button_prev" id="prev"></button>
+        <button class="slider__button slider__button_next" id="next"></button>
       </article>
     </div>
   </section>
