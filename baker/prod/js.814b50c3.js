@@ -2,7 +2,9 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 var e=document.querySelector("#hamburger"),t=document.querySelector("#menu"),s=document.querySelector("html"),i=function(){e.classList.toggle("is-active"),t.classList.toggle("menu_visible"),e.style.outline="none",s.classList.toggle("scroll-disable")};e.addEventListener("click",i),document.addEventListener("keydown",function(s){27===s.keyCode&&(e.classList.remove("is-active"),t.classList.remove("menu_visible"))});
 },{}],"10wz":[function(require,module,exports) {
 var e=document.getElementById("slider"),t=document.querySelectorAll(".slider__item"),r=document.querySelector(".slider__image"),s=document.querySelector("#next"),i=document.querySelector("#prev"),l=function(){var s=e.querySelector(".slider__current");s.classList.remove("slider__current"),s.nextElementSibling?s.nextElementSibling.classList.add("slider__current"):t[0].classList.add("slider__current"),r.dataset.image=e.querySelector(".slider__current").dataset.image},a=function(){var s=e.querySelector(".slider__current");s.classList.remove("slider__current"),s.previousElementSibling?s.previousElementSibling.classList.add("slider__current"):t[t.length-1].classList.add("slider__current"),r.dataset.image=e.querySelector(".slider__current").dataset.image},c=function(t){if(t.target.dataset.image&&t.target.classList.contains("slider__item")){e.querySelector(".slider__current").classList.remove("slider__current");var s=t.target.dataset.image;t.target.classList.add("slider__current"),r.dataset.image=s,console.log(s)}};e.addEventListener("click",c),s.addEventListener("click",l),i.addEventListener("click",a);
+},{}],"PNJt":[function(require,module,exports) {
+var a=document.getElementById("cards"),t=function(t){if(!t.target.classList.contains("dining-card_top")&&t.target.classList.contains("dining-card")){var d=a.querySelector(".dining-card_top"),c=t.target;d.classList.remove("dining-card_top"),c.classList.add("dining-card_top"),console.log(d.dataset.card),d.dataset.card=c.dataset.card,c.dataset.card="one",console.log(d.dataset.card)}};addEventListener("click",t);
 },{}],"QvaY":[function(require,module,exports) {
-"use strict";require("./hamburger"),require("./slider");
-},{"./hamburger":"+NZt","./slider":"10wz"}]},{},["QvaY"], null)
-//# sourceMappingURL=js.edafa3c9.js.map
+"use strict";require("./hamburger"),require("./slider"),require("./card-switcher");
+},{"./hamburger":"+NZt","./slider":"10wz","./card-switcher":"PNJt"}]},{},["QvaY"], null)
+//# sourceMappingURL=js.814b50c3.js.map

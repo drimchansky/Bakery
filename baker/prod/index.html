@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="favicon.41951182.png">
   <meta property="og:image" content="favicon.4b31270f.ico">
-  <link rel="stylesheet" href="main.a5c58b87.css">
+  <link rel="stylesheet" href="main.793603ed.css">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
 
   <!-- Fix chrome mobile vh -->
   <script>var e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh","".concat(e,"px")),window.addEventListener("resize",function(){var e=.01*window.innerHeight;document.documentElement.style.setProperty("--vh","".concat(e,"px"))});</script>
 
-  <script async="" src="js.edafa3c9.js"></script>
+  <script async="" src="js.814b50c3.js"></script>
 </head>
 
 <body class="page__body">
@@ -124,7 +124,7 @@
     </div>
   </section>
 
-  <section class="l-slide">
+  <section class="slider-container">
 
     <!-- SLIDER -->
     <div class="slider" id="slider">
@@ -138,11 +138,10 @@
           ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
           condimentum rhoncus,
           sem quam semper libero, sit amet adipiscing sem neque sed.</p>
-
         <div class="slider__inner">
           <ul class="slider__list">
-            <li class="slider__item" data-image="1"></li>
-            <li class="slider__item slider__current" data-image="2"></li>
+            <li class="slider__item slider__current" data-image="1"></li>
+            <li class="slider__item" data-image="2"></li>
             <li class="slider__item" data-image="3"></li>
           </ul>
           <button class="slider__button slider__button_prev" id="prev">
@@ -157,6 +156,7 @@
           </button>
         </div>
       </article>
+      <!-- STATS -->
       <ul class="stats stats_slider">
         <li class="stats__item stats__item_special">
           <div class="stats__name">Ready in</div>
@@ -167,8 +167,8 @@
     </div>
   </section>
 
-  <section class="l-dish-price">
-    <div class="container l-container-price">
+  <section class="dish-price">
+    <div class="container price_container">
 
       <!-- PRICE LIST -->
       <article class="price">
@@ -194,42 +194,42 @@
       </article>
 
       <!-- DINING CARD -->
-      <div class="l-dining-card-wrap">
+      <div class="dining-card-wrap" id="cards">
 
-        <div class="dining-card dining-card_one">
+        <div class="dining-card dining-card_top" data-card="one">
           <div class="dining-card__decoration">
-            <div class="dining-card__line"></div>
+            <div class="dining-card__line dining-card__line_left"></div>
             <div class="dining-card__round"></div>
-            <div class="dining-card__line"></div>
+            <div class="dining-card__line dining-card__line_right"></div>
           </div>
           <h3 class="dining-card__header">Your morning Escape with Flair</h3>
           <p class="dining-card__description">Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
             sitamet orci eget eros faucibus tincidunt. Duis leo.</p>
-          <button class="button button__dining-card">Read</button>
+          <button class="button button_dining-card">Read</button>
         </div>
 
-        <div class="dining-card dining-card_two">
+        <div class="dining-card" data-card="two">
           <div class="dining-card__decoration">
-            <div class="dining-card__line"></div>
+            <div class="dining-card__line dining-card__line_left"></div>
             <div class="dining-card__round"></div>
-            <div class="dining-card__line"></div>
+            <div class="dining-card__line dining-card__line_right"></div>
           </div>
-          <h3 class="dining-card__header">Your morning Escape with Flair</h3>
+          <h3 class="dining-card__header">Your morning Escape with Flair(2)</h3>
           <p class="dining-card__description">Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
             sitamet orci eget eros faucibus tincidunt. Duis leo.</p>
-          <button class="button button__dining-card">Read</button>
+          <button class="button button_dining-card">Read</button>
         </div>
 
-        <div class="dining-card dining-card_three">
+        <div class="dining-card" data-card="three">
           <div class="dining-card__decoration">
-            <div class="dining-card__line"></div>
+            <div class="dining-card__line dining-card__line_left"></div>
             <div class="dining-card__round"></div>
-            <div class="dining-card__line"></div>
+            <div class="dining-card__line dining-card__line_right"></div>
           </div>
-          <h3 class="dining-card__header">Your morning Escape with Flair</h3>
+          <h3 class="dining-card__header">Your morning Escape with Flair(3)</h3>
           <p class="dining-card__description">Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
             sitamet orci eget eros faucibus tincidunt. Duis leo.</p>
-          <button class="button button__dining-card">Read</button>
+          <button class="button button_dining-card">Read</button>
         </div>
       </div>
     </div>
@@ -266,7 +266,7 @@
 
       <!-- PRODUCT-IMAGE -->
       <div class="product-image">
-        <button class="button button__product-image">Full recipe</button>
+        <button class="button button_product-image">Full recipe</button>
         <img src="hamburger.5c86a80f.jpg" alt="hamburger" class="product-image__image">
         <ul class="stats">
           <li class="stats__item">
