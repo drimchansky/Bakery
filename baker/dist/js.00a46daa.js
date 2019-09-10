@@ -147,8 +147,42 @@ var prevButton = document.querySelector('#prev');
 var nextSlide = function nextSlide() {
   // get current image
   var currentImage = slider.querySelector('.slider__current');
+  currentImage.classList.remove('slider__current');
+
+  if (currentImage.nextElementSibling) {
+    currentImage.nextElementSibling.classList.add('slider__current');
+  } else {
+    slides[0].classList.add('slider__current');
+  }
+
+  image.dataset.image = slider.querySelector('.slider__current').dataset.image;
 };
 
+var prevSlide = function prevSlide() {
+  var currentImage = slider.querySelector('.slider__current');
+  currentImage.classList.remove('slider__current');
+
+  if (currentImage.previousElementSibling) {
+    currentImage.previousElementSibling.classList.add('slider__current');
+  } else {
+    slides[slides.length - 1].classList.add('slider__current');
+  }
+
+  image.dataset.image = slider.querySelector('.slider__current').dataset.image;
+};
+
+var clickOnImage = function clickOnImage(e) {
+  if (e.target.dataset.image) {
+    var currentImage = slider.querySelector('.slider__current');
+    currentImage.classList.remove('slider__current');
+    var data = e.target.dataset.image;
+    e.target.classList.add('slider__current');
+    image.dataset.image = data;
+    console.log(data);
+  }
+};
+
+slider.addEventListener('click', clickOnImage);
 nextButton.addEventListener('click', nextSlide);
 prevButton.addEventListener('click', prevSlide);
 },{}],"js/index.js":[function(require,module,exports) {
@@ -185,7 +219,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "9778" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2232" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

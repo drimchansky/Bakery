@@ -1120,6 +1120,7 @@ template {
   width: 100%;
   order: 2;
   background-size: cover;
+  transition: all 0.3s;
 }
 
 /* SLIDER STYLES */
@@ -1135,6 +1136,9 @@ template {
   width: 70px;
   border-radius: 50%;
   margin: 0 5px;
+}
+.slider__current {
+  border: 2px solid red;
 }
 .slider__button {
   position: absolute;
@@ -1158,7 +1162,8 @@ template {
 }
 [data-image='2'] {
   background: url(/slide-image-2.5c706741.jpg);
-  background-size: cover;
+  background-position: 30% 20%;
+  background-size: 230%;
 }
 [data-image='3'] {
   background: url(/slide-image-3.66e21ed3.jpg);
@@ -1186,7 +1191,6 @@ template {
     width: 45%;
     max-width: none;
     height: 550px;
-    background-position-x: 70%;
   }
   .slider {
     width: 80%;
