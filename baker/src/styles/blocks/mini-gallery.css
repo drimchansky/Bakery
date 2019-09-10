@@ -1,21 +1,22 @@
-
-/* MINI-GALLERY STYLES */
+/* MINI-GALLERY */
 .mini-gallery {
   position: relative;
   margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
 }
 
 .mini-gallery__item {
   max-height: 30vw;
-  padding: 5px;
   position: relative;
 }
-  .mini-gallery__item img {
-    display: block;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
+.mini-gallery__item img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 .mini-gallery__decoration {
   position: absolute;
@@ -33,49 +34,45 @@
   text-align: center;
 }
 .mini-gallery__decoration:before {
-  content: "";
+  content: '';
   position: absolute;
   height: 100%;
   width: 100%;
   background: url(../../img/Vektor-Smartobjekt.png);
   background-size: cover;
-  opacity: .8;
+  opacity: 0.8;
 }
 .mini-gallery__decoration span {
   z-index: 10;
-
 }
 
-
-   /* MINI-GALLERY MEDIA */
- @media screen and (min-width: 576px){
-.mini-gallery__decoration {
-  height: 250px;
-  width: 250px;
-  font-size: 2em;
+/* MINI-GALLERY MEDIA */
+@media screen and (min-width: 576px) {
+  .mini-gallery__decoration {
+    height: 250px;
+    width: 250px;
+    font-size: 2em;
+  }
+  .mini-gallery__decoration span {
+    padding-bottom: 15px;
+  }
 }
-.mini-gallery__decoration span {
-  padding-bottom: 15px;
+@media screen and (min-width: 992px) {
+  .mini-gallery {
+    max-width: 50%;
+  }
+  .mini-gallery__item {
+    height: 320px;
+  }
+  .mini-gallery__item:after {
+    content: '';
+    position: absolute;
+    width: 88%;
+    height: 88%;
+    top: 4%;
+    left: 4%;
+    border: 5px solid white;
+  }
 }
-}
-@media screen and (min-width: 992px){
-.mini-gallery {
-  display: flex;
-  align-items: center;
-}
-.mini-gallery__item {
-  height: 300px;
-}
-.mini-gallery__item:after {
-  content: "";
-  position: absolute;
-  width: 88%;
-  height: 88%;
-  top: 4%;
-  left: 4%;
-  border: 5px solid white;
-}
-}
-@media screen and (min-width: 1200px){
-
+@media screen and (min-width: 1200px) {
 }

@@ -1,9 +1,4 @@
-
-  /* COOK MIXINS */
-.presentation__cook {
-  margin-top: 70px;
-}
-  /* COOK STYLES */
+/* COOK STYLES */
 .cook {
   position: relative;
   font-size: 16px;
@@ -17,39 +12,45 @@
   background: white;
   color: #56534c;
 }
-  .cook__image {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: 20% 50%;
-  }
-  .cook__rank {
-    position: absolute;
-    top: -60px;
-    width: 300px;
-    font-size: 2em;
-  }
-    .cook:after, .cook:before {
-      position: absolute;
-      color: #5c5b56;
-      font-size: 1.7em;
-      top: 50%;
-      transform: translateY(-50%);
-      padding: 12px 5px;
-      border-top: 1px solid #d5d6d1;
-      border-bottom: 1px solid #d5d6d1;
-    }
-    .cook:before {
-      content: "Benito";
-      left: -90px;
-    }
-    .cook:after {
-      content: "Gaspare";
-      right: -95px;
-    }
-  
-    /* COOK MEDIA */
+.cook__image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 20% 50%;
+}
+.cook__rank {
+  position: absolute;
+  top: -60px;
+  width: 300px;
+  font-size: 2em;
+}
+.cook:after,
+.cook:before {
+  position: absolute;
+  color: #5c5b56;
+  font-size: 1.7em;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 12px 5px;
+  border-top: 1px solid #d5d6d1;
+  border-bottom: 1px solid #d5d6d1;
+}
+.cook:before {
+  content: 'Benito';
+  left: -90px;
+}
+.cook:after {
+  content: 'Gaspare';
+  right: -95px;
+}
+
+/* COOK MIXINS */
+.presentation__cook {
+  margin-top: 70px;
+}
+
+/* COOK MEDIA */
 @media screen and (min-width: 576px) {
   .cook {
     width: 150px;
