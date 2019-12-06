@@ -642,7 +642,9 @@ template {
   border-bottom: 2px solid transparent;
   \transition: all 0.2s;
 }
-.menu__link:hover {
+.menu__link:hover,
+.menu__link:focus {
+  outline: none;
   border-bottom: 2px solid rgba(255, 255, 255, 0.8);
 }
 
@@ -687,7 +689,9 @@ template {
   height: 100%;
   padding: 8px;
 }
-.social__link:hover,
+.social__link:hover {
+  opacity: 0.8;
+}
 .social__link:focus {
   outline: 2px solid rgba(255, 255, 255, 0.8);
 }
