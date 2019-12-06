@@ -34,7 +34,7 @@
 }
 @media screen and (min-width: 992px) {
   .header {
-    height: 100vh;
+    height: 95vh;
   }
 }
 @media screen and (min-width: 1200px) {

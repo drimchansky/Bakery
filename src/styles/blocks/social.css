@@ -17,7 +17,7 @@
   opacity: 0.8;
 }
 .social__link:focus {
-  outline: 2px solid rgba(255, 255, 255, 0.8);
+  outline: 2px solid var(--c-white);
 }
 .social__link object {
   display: block;

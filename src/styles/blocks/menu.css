@@ -9,7 +9,7 @@
   left: 0px;
   transform: translate(300%, -30%);
   background: rgba(5, 5, 5, 0.9);
-  color: white;
+  color: var(--c-white);
   z-index: 30;
   transition: all 0.2s;
   overflow: auto;
@@ -42,7 +42,7 @@
 .menu__link:hover,
 .menu__link:focus {
   outline: none;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 2px solid var(--c-white);
 }
 
 .menu_visible {

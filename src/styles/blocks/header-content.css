@@ -1,6 +1,6 @@
 /*  STYLES */
 .header-content {
-  color: white;
+  color: var(--c-dark);
   z-index: 9;
   position: relative;
   text-align: center;
@@ -10,13 +10,18 @@
   flex-direction: column;
   font-size: 16px;
   padding: 70px 0 100px;
+  line-height: 1;
 }
 .header-content__header {
+  background: var(--c-white);
+  padding: 10px;
   font-size: 2.5em;
   margin: 0;
 }
 .header-content__caption {
   margin: 40px 0 0 0;
+  background: var(--c-white);
+  padding: 5px;
 }
 
 /* HEADER-CONTENT MEDIA */
@@ -30,6 +35,12 @@
     font-size: 30px;
     padding: 0;
     height: 80vh;
+  }
+  .header-content__header {
+    padding: 15px;
+  }
+  .header-content__caption {
+    padding: 15px;
   }
 }
 @media screen and (min-width: 1200px) {

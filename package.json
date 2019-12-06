@@ -36,7 +36,11 @@
       "autoprefixer": {
         "grid": true
       },
-      "postcss-nested": {}
+      "postcss-nested": {},
+      "postcss-custom-properties": {
+        "preserve": true,
+        "importFrom": "./src/styles/properties.css"
+      }
     }
   },
   "stylelint": {

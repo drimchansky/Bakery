@@ -195,7 +195,12 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\fonts\\Scriptina.woff2":[["Scriptina.7bd7be73.woff2","fonts/Scriptina.woff2"],"fonts/Scriptina.woff2"],"./..\\..\\fonts\\Scriptina.woff":[["Scriptina.bfbaf1d8.woff","fonts/Scriptina.woff"],"fonts/Scriptina.woff"],"./..\\..\\fonts\\Scriptina.ttf":[["Scriptina.5d35dce6.ttf","fonts/Scriptina.ttf"],"fonts/Scriptina.ttf"],"./..\\..\\fonts\\Scriptina.eot":[["Scriptina.932d9aac.eot","fonts/Scriptina.eot"],"fonts/Scriptina.eot"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/container.css":[function(require,module,exports) {
+},{"./..\\..\\fonts\\Scriptina.woff2":[["Scriptina.7bd7be73.woff2","fonts/Scriptina.woff2"],"fonts/Scriptina.woff2"],"./..\\..\\fonts\\Scriptina.woff":[["Scriptina.bfbaf1d8.woff","fonts/Scriptina.woff"],"fonts/Scriptina.woff"],"./..\\..\\fonts\\Scriptina.ttf":[["Scriptina.5d35dce6.ttf","fonts/Scriptina.ttf"],"fonts/Scriptina.ttf"],"./..\\..\\fonts\\Scriptina.eot":[["Scriptina.932d9aac.eot","fonts/Scriptina.eot"],"fonts/Scriptina.eot"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/properties.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/blocks/container.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -310,7 +315,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"../../node_modules/normalize.css/normalize.css":"../node_modules/normalize.css/normalize.css","./blocks/page.css":"styles/blocks/page.css","./blocks/container.css":"styles/blocks/container.css","./blocks/header.css":"styles/blocks/header.css","./blocks/topline.css":"styles/blocks/topline.css","./blocks/hamburger.css":"styles/blocks/hamburger.css","./blocks/logo.css":"styles/blocks/logo.css","./blocks/menu.css":"styles/blocks/menu.css","./blocks/social.css":"styles/blocks/social.css","./blocks/button.css":"styles/blocks/button.css","./blocks/header-content.css":"styles/blocks/header-content.css","./blocks/presentation.css":"styles/blocks/presentation.css","./blocks/mini-gallery.css":"styles/blocks/mini-gallery.css","./blocks/article.css":"styles/blocks/article.css","./blocks/quote.css":"styles/blocks/quote.css","./blocks/cook.css":"styles/blocks/cook.css","./blocks/slider.css":"styles/blocks/slider.css","./blocks/price.css":"styles/blocks/price.css","./blocks/dining-card.css":"styles/blocks/dining-card.css","./blocks/product-image.css":"styles/blocks/product-image.css","./blocks/product.css":"styles/blocks/product.css","./blocks/stats.css":"styles/blocks/stats.css","./blocks/ingredients.css":"styles/blocks/ingredients.css","./blocks/footer.css":"styles/blocks/footer.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../../node_modules/normalize.css/normalize.css":"../node_modules/normalize.css/normalize.css","./blocks/page.css":"styles/blocks/page.css","./properties.css":"styles/properties.css","./blocks/container.css":"styles/blocks/container.css","./blocks/header.css":"styles/blocks/header.css","./blocks/topline.css":"styles/blocks/topline.css","./blocks/hamburger.css":"styles/blocks/hamburger.css","./blocks/logo.css":"styles/blocks/logo.css","./blocks/menu.css":"styles/blocks/menu.css","./blocks/social.css":"styles/blocks/social.css","./blocks/button.css":"styles/blocks/button.css","./blocks/header-content.css":"styles/blocks/header-content.css","./blocks/presentation.css":"styles/blocks/presentation.css","./blocks/mini-gallery.css":"styles/blocks/mini-gallery.css","./blocks/article.css":"styles/blocks/article.css","./blocks/quote.css":"styles/blocks/quote.css","./blocks/cook.css":"styles/blocks/cook.css","./blocks/slider.css":"styles/blocks/slider.css","./blocks/price.css":"styles/blocks/price.css","./blocks/dining-card.css":"styles/blocks/dining-card.css","./blocks/product-image.css":"styles/blocks/product-image.css","./blocks/product.css":"styles/blocks/product.css","./blocks/stats.css":"styles/blocks/stats.css","./blocks/ingredients.css":"styles/blocks/ingredients.css","./blocks/footer.css":"styles/blocks/footer.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -338,7 +343,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "3032" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "3298" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

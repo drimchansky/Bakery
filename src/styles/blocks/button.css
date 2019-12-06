@@ -12,16 +12,19 @@
 .button_header {
   padding: 10px 50px;
   margin: 40px 0 0 0;
-  border: 2px dashed rgba(255, 255, 255, 0.3);
+  border: 3px dashed #f4f1ea;
   background: rgba(0, 0, 0, 0.5);
   color: white;
   transition: all 0.2s;
 }
-.button_header:hover,
-.button_header:focus {
-  border: 2px dashed rgba(255, 255, 255, 0.9);
+.button_header:hover {
+  opacity: 0.8;
   outline: none;
 }
+.button_header:focus {
+  border-style: solid;
+}
+
 .button_dining-card {
   background: transparent;
   border: 2px solid #7c695d;
