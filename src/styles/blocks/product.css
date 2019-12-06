@@ -14,7 +14,7 @@
   color: #58554e;
 }
 .product__caption {
-  color: #a87b5a;
+  color: var(--c-dark);
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.8em;
@@ -31,7 +31,6 @@
     font-size: 3em;
   }
   .product__caption {
-    color: #a87b5a;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1em;

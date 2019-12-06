@@ -28,15 +28,24 @@
   text-align: center;
   font-size: 16px;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .price__header {
   font-weight: bold;
   margin: 0;
-  color: white;
+  padding: 5px;
+  color: var(--c-dark);
+  background: var(--c-white);
   font-size: 3.5em;
+
+  @media (min-width: 992px) {
+    padding: 15px;
+  }
 }
 .price__subtitle {
-  color: #e9b595;
+  color: var(--c-white);
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -48,19 +57,27 @@
 .price__item {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .price__type {
-  color: white;
   font-size: 2em;
   margin: 30px 0 0 0;
+  padding: 5px;
+  color: var(--c-dark);
+  background: var(--c-white);
+
+  @media (min-width: 992px) {
+    padding: 15px;
+  }
 }
 .price__composition {
   font-size: 1.2em;
-  color: #c1c1b3;
+  color: var(--c-white);
   margin: 8px 0 0 0;
 }
 .price__money {
-  color: #e9b595;
+  color: var(--c-white);
+
   margin: 20px 0 0 0;
   font-size: 2.2em;
 }

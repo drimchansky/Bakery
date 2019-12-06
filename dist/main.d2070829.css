@@ -384,6 +384,7 @@ template {
   --c-white: #f4f1ea;
   --c-dark: #363531;
 }
+
 /* CONTAINER */
 .container {
   max-width: 1300px;
@@ -759,10 +760,12 @@ template {
 
 .button_dining-card {
   background: transparent;
-  border: 2px solid #7c695d;
+  border: 2px solid #363531;
+  border: 2px solid var(--c-dark);
   padding: 0px;
   display: block;
-  color: #a87759;
+  color: #363531;
+  color: var(--c-dark);
   width: 150px;
   padding: 5px 0;
   margin: 2em 0 0 0;
@@ -772,8 +775,10 @@ template {
   bottom: -10px;
   left: -10px;
   padding: 13px 25px;
-  border: 2px dashed #d8c290;
-  color: #d8c290;
+  border: 2px dashed #363531;
+  border: 2px dashed var(--c-dark);
+  color: #363531;
+  color: var(--c-dark);
   background: #fff;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -884,7 +889,7 @@ template {
 @media screen and (min-width: 1200px) {
 }
 
-/* MINI-GALLERY */
+/* MINI-  Y */
 .mini-gallery {
   position: relative;
   margin-top: 30px;
@@ -910,12 +915,13 @@ template {
 
 .mini-gallery__decoration {
   position: absolute;
+  color: #363531;
+  color: var(--c-dark);
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   height: 150px;
   width: 150px;
-  color: #7c695d;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -962,7 +968,8 @@ template {
     height: 88%;
     top: 4%;
     left: 4%;
-    border: 5px solid white;
+    border: 5px solid #f4f1ea;
+    border: 5px solid var(--c-white);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -988,13 +995,23 @@ template {
   padding: 0 5px;
 }
 .article__header {
-  color: #56534c;
+  color: #f4f1ea;
+  color: var(--c-white);
+  background: #363531;
+  background: var(--c-dark);
+  padding: 5px;
   font-size: 2.5em;
   margin: 0;
   font-weight: bold;
 }
+@media (min-width: 992px) {
+.article__header {
+    padding: 12px
+}
+  }
 .article__caption {
-  color: #a87a62;
+  color: #363531;
+  color: var(--c-dark);
   text-transform: uppercase;
   font-size: 0.7em;
   margin-top: 5px;
@@ -1084,7 +1101,8 @@ template {
   justify-content: center;
   align-items: center;
   background: white;
-  color: #56534c;
+  color: #363531;
+  color: var(--c-dark);
 }
 .cook__image {
   height: 100px;
@@ -1096,21 +1114,35 @@ template {
      object-position: 20% 50%;
 }
 .cook__rank {
+  color: #f4f1ea;
+  color: var(--c-white);
+  background: #363531;
+  background: var(--c-dark);
   position: absolute;
   top: -60px;
-  width: 300px;
+  width: 200px;
+  padding: 5px 0;
   font-size: 2em;
 }
+@media (min-width: 992px) {
+.cook__rank {
+    padding: 7px 0;
+    width: 230px
+}
+  }
 .cook:after,
 .cook:before {
   position: absolute;
-  color: #5c5b56;
+  color: #363531;
+  color: var(--c-dark);
   font-size: 1.7em;
   top: 50%;
   transform: translateY(-50%);
   padding: 12px 5px;
-  border-top: 1px solid #d5d6d1;
-  border-bottom: 1px solid #d5d6d1;
+  border-top: 1px solid #363531;
+  border-top: 1px solid var(--c-dark);
+  border-bottom: 1px solid #363531;
+  border-bottom: 1px solid var(--c-dark);
 }
 .cook:before {
   content: 'Benito';
@@ -1123,7 +1155,7 @@ template {
 
 /* COOK MIXINS */
 .presentation__cook {
-  margin-top: 70px;
+  margin-top: 85px;
 }
 
 /* COOK MEDIA */
@@ -1193,7 +1225,8 @@ template {
   margin: 0 5px;
 }
 .slider__current {
-  border: 4px solid rgba(219, 211, 206, 0.7);
+  border: 4px solid #f4f1ea;
+  border: 4px solid var(--c-white);
 }
 .slider__button {
   position: absolute;
@@ -1309,15 +1342,28 @@ template {
   text-align: center;
   font-size: 16px;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .price__header {
   font-weight: bold;
   margin: 0;
-  color: white;
+  padding: 5px;
+  color: #363531;
+  color: var(--c-dark);
+  background: #f4f1ea;
+  background: var(--c-white);
   font-size: 3.5em;
 }
+@media (min-width: 992px) {
+.price__header {
+    padding: 15px
+}
+  }
 .price__subtitle {
-  color: #e9b595;
+  color: #f4f1ea;
+  color: var(--c-white);
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -1329,19 +1375,32 @@ template {
 .price__item {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .price__type {
-  color: white;
   font-size: 2em;
   margin: 30px 0 0 0;
+  padding: 5px;
+  color: #363531;
+  color: var(--c-dark);
+  background: #f4f1ea;
+  background: var(--c-white);
 }
+@media (min-width: 992px) {
+.price__type {
+    padding: 15px
+}
+  }
 .price__composition {
   font-size: 1.2em;
-  color: #c1c1b3;
+  color: #f4f1ea;
+  color: var(--c-white);
   margin: 8px 0 0 0;
 }
 .price__money {
-  color: #e9b595;
+  color: #f4f1ea;
+  color: var(--c-white);
+
   margin: 20px 0 0 0;
   font-size: 2.2em;
 }
@@ -1562,7 +1621,8 @@ template {
   color: #58554e;
 }
 .product__caption {
-  color: #a87b5a;
+  color: #363531;
+  color: var(--c-dark);
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.8em;
@@ -1579,7 +1639,6 @@ template {
     font-size: 3em;
   }
   .product__caption {
-    color: #a87b5a;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1em;
@@ -1675,7 +1734,6 @@ template {
 @media screen and (min-width: 1200px) {
 }
 
-
 /* INGREDIENTS STYLES */
 .ingredients {
   list-style-type: none;
@@ -1694,11 +1752,15 @@ template {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
-  box-shadow: 1px 2px 6px 3px rgba(0,0,0,0.1);
+  box-shadow: 1px 2px 6px 3px rgba(0, 0, 0, 0.1);
 }
 .ingredients__name {
-  margin: .5em 0 0 0;
-  color: #a27d63;
+  margin: 0.5em 0 0 0;
+  color: #f4f1ea;
+  color: var(--c-white);
+  background: #363531;
+  background: var(--c-dark);
+  padding: 5px 0;
   font-size: 2em;
   font-weight: 700;
 }
@@ -1710,21 +1772,20 @@ template {
   padding: 0 3px;
 }
 /* INGREDIENTS MEDIA */
-@media screen and (min-width: 576px){
-.ingredients {
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 3em;
+@media screen and (min-width: 576px) {
+  .ingredients {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3em;
+  }
 }
+@media screen and (min-width: 992px) {
+  .ingredients {
+    flex-direction: column;
+    margin-top: -3em;
+  }
 }
-@media screen and (min-width: 992px){
-.ingredients {
-  flex-direction: column;
-  margin-top: -3em;
-}
-}
-@media screen and (min-width: 1200px){
-
+@media screen and (min-width: 1200px) {
 }
 
 /* FOOTER */

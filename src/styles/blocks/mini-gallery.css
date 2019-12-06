@@ -1,4 +1,4 @@
-/* MINI-GALLERY */
+/* MINI-  Y */
 .mini-gallery {
   position: relative;
   margin-top: 30px;
@@ -21,12 +21,12 @@
 
 .mini-gallery__decoration {
   position: absolute;
+  color: var(--c-dark);
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   height: 150px;
   width: 150px;
-  color: #7c695d;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -73,7 +73,7 @@
     height: 88%;
     top: 4%;
     left: 4%;
-    border: 5px solid white;
+    border: 5px solid var(--c-white);
   }
 }
 @media screen and (min-width: 1200px) {

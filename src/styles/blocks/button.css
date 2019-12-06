@@ -27,10 +27,10 @@
 
 .button_dining-card {
   background: transparent;
-  border: 2px solid #7c695d;
+  border: 2px solid var(--c-dark);
   padding: 0px;
   display: block;
-  color: #a87759;
+  color: var(--c-dark);
   width: 150px;
   padding: 5px 0;
   margin: 2em 0 0 0;
@@ -40,8 +40,8 @@
   bottom: -10px;
   left: -10px;
   padding: 13px 25px;
-  border: 2px dashed #d8c290;
-  color: #d8c290;
+  border: 2px dashed var(--c-dark);
+  color: var(--c-dark);
   background: #fff;
   text-transform: uppercase;
   font-size: 1.2em;

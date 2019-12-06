@@ -38,7 +38,7 @@
   margin: 0 5px;
 }
 .slider__current {
-  border: 4px solid rgba(219, 211, 206, 0.7);
+  border: 4px solid var(--c-white);
 }
 .slider__button {
   position: absolute;
